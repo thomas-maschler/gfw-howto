@@ -310,7 +310,7 @@ button {
     position: relative;
     border: 1px solid #E5E5DF; }
   .m-content-grid .m-content-item .img {
-    background-image: url("/assets/images/thumbnail-post.png");
+    background-image: url("/gfw-howto/assets/images/thumbnail-post.png");
     background-size: cover;
     width: 100%;
     height: 0;
