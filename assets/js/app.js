@@ -39,7 +39,11 @@
     },
 
     start: function() {
-      Backbone.history.start({ pushState: true });
+      Backbone.history.start({
+        pushState: true,
+        root: (!!baseurl) ? baseurl : "/"
+      });
+      console.log(Backbone.history.handlers);
     },
 
     homePage: function() {
