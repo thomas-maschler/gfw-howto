@@ -4,7 +4,7 @@
       "title"    : "Test GFW 8",
       "category" : "gfw",
       "tags"     : "training modules",
-      "url"      : "/gfw/test-gfw8.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw8.html",
       "date"     : "2008-01-01 00:00:00 +0100",
       "content"  : "GFW 8"
     } ,
@@ -13,7 +13,7 @@
       "title"    : "Test GFW 7",
       "category" : "gfw",
       "tags"     : "webinars",
-      "url"      : "/gfw/test-gfw7.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw7.html",
       "date"     : "2007-01-01 00:00:00 +0100",
       "content"  : "GFW 7"
     } ,
@@ -22,7 +22,7 @@
       "title"    : "Test GFW 6",
       "category" : "gfw",
       "tags"     : "tutorial videos",
-      "url"      : "/gfw/test-gfw6.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw6.html",
       "date"     : "2006-01-01 00:00:00 +0100",
       "content"  : "GFW 6"
     } ,
@@ -31,7 +31,7 @@
       "title"    : "Test GFW 5",
       "category" : "gfw",
       "tags"     : "submit a story",
-      "url"      : "/gfw/test-gfw5.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw5.html",
       "date"     : "2005-01-01 00:00:00 +0100",
       "content"  : "GFW 5"
     } ,
@@ -40,7 +40,7 @@
       "title"    : "Test GFW 4",
       "category" : "gfw",
       "tags"     : "suscribe to alerts",
-      "url"      : "/gfw/test-gfw4.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw4.html",
       "date"     : "2004-01-01 00:00:00 +0100",
       "content"  : "GFW 4"
     } ,
@@ -49,7 +49,7 @@
       "title"    : "Test GFW 3",
       "category" : "gfw",
       "tags"     : "analyze data",
-      "url"      : "/gfw/test-gfw3.html",
+      "url"      : "/gfw-style-guides/gfw/test-gfw3.html",
       "date"     : "2003-01-01 00:00:00 +0100",
       "content"  : "GFW 3"
     } ,
@@ -58,7 +58,7 @@
       "title"    : "What updates are coming down the road for GFW?",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-gfw3.html",
+      "url"      : "/gfw-style-guides/faqs/faq-gfw3.html",
       "date"     : "2003-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -67,7 +67,7 @@
       "title"    : "Visualize country data",
       "category" : "gfw",
       "tags"     : "visualize data",
-      "url"      : "/gfw/visualize-country-data.html",
+      "url"      : "/gfw-style-guides/gfw/visualize-country-data.html",
       "date"     : "2002-01-01 00:00:00 +0100",
       "content"  : "  Visualize country data on the GFW Interactive Map  Global Forest Watch features both global and country data layers. While global layers, such as tree cover loss and protected areas, apply to the entire world or to a large (and transboundary) geographic region, country data layers apply only to a particular country. You can easily view both types of data together on the map.  1. Navigate to the GFW Interactive Map.  2. Using the window on the right-hand side of the map, select a country. The available data sets will then appear.  &lt;%= image_tag('howto-screenshots/new_content/image11.png') %&gt;  3. If no data is available, try selecting another country, view GFW’s global data layers, or suggest your own data set.  &lt;%= image_tag('howto-screenshots/new_content/image12.png') %&gt;  4. Click on the available country data layer you wish to visualize on the map. You can also turn the country layers on through the country tab above the map.  &lt;%= image_tag('howto-screenshots/new_content/image13.png') %&gt;&lt;%= image_tag('howto-screenshots/new_content/image14.png') %&gt;  5. Click the information icons to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more and download the data set on the Open Data Portal.  &lt;%= image_tag('howto-screenshots/new_content/image15.png') %&gt;  6. Learn more about and download country data by clicking “Country data” or select “Country Profile” to view country statistics.  &lt;%= image_tag('howto-screenshots/new_content/image14_2.png') %&gt;  7. Change the base map to view data with a different map background.  &lt;%= image_tag('howto-screenshots/new_content/image8.png') %&gt;  8. Zoom in and out, share your map view, hide the windows, search the Google base map, and refresh the page using the buttons located on the bottom left-hand side of the map.  &lt;%= image_tag('howto-screenshots/new_content/image7.png') %&gt;  9. Clear your country selection by clicking the “x” within the right-hand window or on the country tab above the map.  Visualize country data on the GFW Interactive Map  Global Forest Watch features both global and country data layers. While global layers, such as tree cover loss and protected areas, apply to the entire world or to a large (and transboundary) geographic region, country data layers apply only to a particular country. You can easily view both types of data together on the map.  1. Navigate to Country Data through the Data Layers button.  &lt;%= image_tag('howto-screenshots-mobile/img10.png') %&gt;  &lt;%= image_tag('howto-screenshots-mobile/img11-2.png') %&gt;  2. Select a country from the list that appears. If no data is available, try selecting another country by tapping on “change country”.  &lt;%= image_tag('howto-screenshots-mobile/img18.png') %&gt;  3. If datasets are available for that country, they will appear.  &lt;%= image_tag('howto-screenshots-mobile/img19.png') %&gt;  4. Tap on the available country data layer you wish to visualize on the map, and then tap Go to Map to view.  &lt;%= image_tag('howto-screenshots-mobile/img20-1.png') %&gt;  5. Tap the information icons to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more and download the data set on the Open Data Portal.  &lt;%= image_tag('howto-screenshots-mobile/img20-2.png') %&gt;  &lt;%= image_tag('howto-screenshots-mobile/img21.png') %&gt;  6. Learn more about and download country data by tapping “Country Data” or select “Country Profile” to view country statistics.  &lt;%= image_tag('howto-screenshots-mobile/img20-3.png') %&gt;  7. Change the base map to view data with a different map background.  &lt;%= image_tag('howto-screenshots-mobile/img11-3.png') %&gt;  &lt;%= image_tag('howto-screenshots-mobile/img16.png') %&gt;  8. Share your map view, zoom in and out, refresh the page, search the Google base map, and geo-locate your position using the buttons along the right side of the map.  &lt;%= image_tag('howto-screenshots-mobile/img14-2.png') %&gt;"
     } ,
@@ -76,7 +76,7 @@
       "title"    : "Who is behind global forest watch?",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-gfw2.html",
+      "url"      : "/gfw-style-guides/faqs/faq-gfw2.html",
       "date"     : "2002-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -85,7 +85,7 @@
       "title"    : "Test faq Climate 2",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-climate2.html",
+      "url"      : "/gfw-style-guides/faqs/faq-climate2.html",
       "date"     : "2002-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -94,7 +94,7 @@
       "title"    : "Visualize Global Data on GFW",
       "category" : "gfw",
       "tags"     : "visualize data",
-      "url"      : "/gfw/visualize-global-data.html",
+      "url"      : "/gfw-style-guides/gfw/visualize-global-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "  Visualize global data on the GFW Interactive Map  1.  Navigate to the GFW Interactive Map.  2.  Available global data layers are organized by category across the top of the map. Click through the tabs to select the data layer(s) you want to display. Tree cover loss and gain are displayed by default.    3.  Click the information icon in the drop down menu to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more or download the data set on the Open Data Portal.    4.  View activated layers in the data legend on the left-hand side of the map.    For data layers that cover a limited geographic region, you can turn on “Geographic coverage” in the data legend to see the geographic extent of the data layer on the map.    For tree cover and tree cover loss data layers, you can adjust the tree canopy density of your data display and analysis by clicking on the highlighted percent canopy density within the legend.    5.  Zoom in and out, share your map view, hide the windows, search the Google base map, and refresh the page using the buttons located on the bottom left-hand side of the map.    6.  Change the base map to view data with a different map background.        GFW Interactive Map    Visualize data as a time series  For most data layers under the Forest Change tab, the default view shows cumulative data points over the entire study period. However, most of these layers can also be viewed as a time series. The specific time intervals (e.g., annual, monthly, daily) vary for each data layer.  1.  Select the Forest Change data layer you want to view as a time series.  2.  On the bottom of the map, locate the timeline.  3.  Some timelines allow you to animate the data over time or select a time interval. Press the play button on the left to view an animation of the entire time series or drag the ends of the timeline to select a specific period of time.    4.  For data layers with a simple timeline, select the period for which you would like to view data.        View UMD/Google Data    View FORMA data    View Imazon Data    View QUICC Data    Learn more about individual data points and polygons  Some data layers allow you to click on individual data points and polygons (i.e., shapes) to view additional information. This feature applies to NASA active fires (within the Forest Change tab) and/or data within the Forest Use, Conservation, People, and Stories tabs.  1.  Select a data layer, noting that this feature only applies to certain layers (see above).  2.  Click on the data point or polygon you want to learn more about and an information window will appear. Note: You can analyze Forest Change data within individual land-use concessions and protected areas by selecting the analysis button in the information window. Click the Analyze Forest Change tab on this page for step-by-step guidance.  Visualize global data on the GFW Interactive Map  1.  Navigate to the GFW Interactive Map.  2.  Available data layers are organized by category within the Data Layers drop down menu. Tap on Global Data or Country Data and then search through the categories to select the data layer(s) you want to display. Once the layers are selected, tap Go to Map. Tree cover loss and gain are displayed by default.      &lt;%= image_tag('howto-screenshots-mobile/img10.png') %&gt;    &lt;%= image_tag('howto-screenshots-mobile/img11-1.png') %&gt;    &lt;%= image_tag('howto-screenshots-mobile/img12.png') %&gt;    3.  Tap the information icon next to each layer name to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more or download the data set on the Open Data Portal.  &lt;%= image_tag('howto-screenshots-mobile/img13-1.png') %&gt;  4.  View activated layers by tapping on the data legend on the right-hand side of the map.  &lt;%= image_tag('howto-screenshots-mobile/img14-1.png') %&gt;  5.  For data layers that cover a limited geographic region, you can turn on “Geographic coverage” in the data legend to see the geographic extent of the data layer on the map.  &lt;%= image_tag('howto-screenshots-mobile/img51-1.png') %&gt;  6.  For tree cover loss and tree cover extent data layers, you can adjust the tree canopy density of your data display and analysis by tapping on the highlighted percent canopy density within the legend.  &lt;%= image_tag('howto-screenshots-mobile/img15-1.png') %&gt;  7.  Share your map view, zoom in and out, refresh the page, search the Google base map and geo-locate your position using the buttons along the right side of the map.  &lt;%= image_tag('howto-screenshots-mobile/img14-2.png') %&gt;  8.  Change the base map to view data with a different map background. Tap on the Data Layers button and then the Basemaps button. Once you select a basemap, tap Return to Map.    &lt;%= image_tag('howto-screenshots-mobile/img11-3.png') %&gt;      &lt;%= image_tag('howto-screenshots-mobile/img16.png') %&gt;    Visualize data for different time periods  For most data layers under the Forest Change tab, the default view shows cumulative data points over the entire study period. However, most of these layers can also be viewed for other specified time periods. The specific time intervals (e.g., annual, monthly, and daily) vary for each data layer.  1.  Select the Forest Change data layer you want to view.  2.  On the bottom of the map, locate the timeline and select the period for which you would like to view data.  &lt;%= image_tag('howto-screenshots-mobile/img17.png') %&gt;  Learn more about individual data points and polygons  Some data layers allow you to click on individual data points and polygons (i.e., shapes) to view additional information.  1.  Select a data layer(s) under the Global Data and Country Data tabs.  2.  Tap on the data point or polygon you want to learn more about and an information window will appear.  4.  You can analyze Forest Change data within individual points or polygons by tapping on the Analyze button at the bottom of the information window."
     } ,
@@ -103,7 +103,7 @@
       "title"    : "Test Fires 4",
       "category" : "fires",
       "tags"     : "visualize data",
-      "url"      : "/fires/test-fires4.html",
+      "url"      : "/gfw-style-guides/fires/test-fires4.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Fires 4"
     } ,
@@ -112,7 +112,7 @@
       "title"    : "Test Fires 3",
       "category" : "fires",
       "tags"     : "visualize data",
-      "url"      : "/fires/test-fires3.html",
+      "url"      : "/gfw-style-guides/fires/test-fires3.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Fires 3"
     } ,
@@ -121,7 +121,7 @@
       "title"    : "Test Fires 2",
       "category" : "fires",
       "tags"     : "visualize data",
-      "url"      : "/fires/test-fires2.html",
+      "url"      : "/gfw-style-guides/fires/test-fires2.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Fires 2"
     } ,
@@ -130,7 +130,7 @@
       "title"    : "Test Fires 1",
       "category" : "fires",
       "tags"     : "submit a story",
-      "url"      : "/fires/test-fires1.html",
+      "url"      : "/gfw-style-guides/fires/test-fires1.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Fires 1"
     } ,
@@ -139,7 +139,7 @@
       "title"    : "Who can use global forest watch?",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-gfw1.html",
+      "url"      : "/gfw-style-guides/faqs/faq-gfw1.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -148,7 +148,7 @@
       "title"    : "Test faq Fires",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-fires1.html",
+      "url"      : "/gfw-style-guides/faqs/faq-fires1.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -157,7 +157,7 @@
       "title"    : "Test faq Climate",
       "category" : "faqs",
       "tags"     : "",
-      "url"      : "/faqs/faq-climate1.html",
+      "url"      : "/gfw-style-guides/faqs/faq-climate1.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
@@ -166,7 +166,7 @@
       "title"    : "Test climate 4",
       "category" : "climate",
       "tags"     : "view statistics",
-      "url"      : "/climate/test-climate4.html",
+      "url"      : "/gfw-style-guides/climate/test-climate4.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Climate 4"
     } ,
@@ -175,7 +175,7 @@
       "title"    : "Test climate 3",
       "category" : "climate",
       "tags"     : "view statistics",
-      "url"      : "/climate/test-climate3.html",
+      "url"      : "/gfw-style-guides/climate/test-climate3.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Climate 3"
     } ,
@@ -184,7 +184,7 @@
       "title"    : "Test climate 2",
       "category" : "climate",
       "tags"     : "view statistics",
-      "url"      : "/climate/test-climate2.html",
+      "url"      : "/gfw-style-guides/climate/test-climate2.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Climate 2"
     } ,
@@ -193,7 +193,7 @@
       "title"    : "Test Climate 5",
       "category" : "climate",
       "tags"     : "view statistics",
-      "url"      : "/climate/test-climate1.html",
+      "url"      : "/gfw-style-guides/climate/test-climate1.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "Climate 1"
     } 
@@ -205,7 +205,7 @@
         "title"    : "FAQ&#39;s",
         "category" : "",
         "tags"     : "",
-        "url"      : "/faqs/",
+        "url"      : "/gfw-style-guides/faqs/",
         "date"     : "",
         "content"  : "        How to / Faq's    FAQ's                                                                                                      Who can use global forest watch?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                        Who is behind global forest watch?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                              What updates are coming down the road for GFW?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                  Test faq Climate                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                  Test faq Climate 2                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                                              Test faq Fires                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
      
@@ -216,7 +216,7 @@
         "title"    : "How to",
         "category" : "",
         "tags"     : "",
-        "url"      : "/",
+        "url"      : "/gfw-style-guides/",
         "date"     : "",
         "content"  : "  How to  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.      Find content by theme                                                                              Visualize data              Some data are produced directly by WRI and our partners, such as FORMA alerts, Intact Forest Landscapes, and some forest use data.                                                                                View statistics              These courses are designed to provide an in-depth understanding of the ways can support a variety of professional.                                                                                Analyze data              Description analyze_data                                                                                Suscribe to alerts              Description suscribe_to_alerts                                                                                Submit a story              Description submit_a_story                                                                                Tutorial videos              Description tutorial_videos                                                                                Webinars              Description webinars                                                                                Training modules              Description training_modules                                                  Find content by application                                                  Gfw                                Empowering people everywhere to better manage and conserve forest landscapes through an interactive online forest monitoring system.                                                      Climate                                GFW Climate catalyzes action on climate change by providing timely, credible answers to questions about carbon emissions from tropical deforestation.                                                      Fires                                Global Forest Watch Fires (GFW Fires) is an online platform for monitoring and responding to forest and land fires in the ASEAN region using near real-time information.                                                      Commodities                                Global Forest Watch Commodities is an online platform that empowers companies to analyze the impact of key commodities on forests, using the latest and most powerful data available.                    "
      
