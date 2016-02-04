@@ -43,7 +43,6 @@
         pushState: true,
         root: (!!baseurl) ? baseurl : "/"
       });
-      console.log(Backbone.history.handlers);
     },
 
     homePage: function() {
