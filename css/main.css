@@ -200,6 +200,12 @@ button {
   color: #b6b6ba;
   padding: 0 0 10px; }
 
+.m-aside ul li.toggle-themes {
+  cursor: pointer;
+  padding-left: 28px; }
+  .m-aside ul li.toggle-themes:hover {
+    color: #97bd3d; }
+
 .m-aside ul li a {
   display: block;
   position: relative;
@@ -251,6 +257,8 @@ button {
       left: auto;
       right: 10px;
       cursor: pointer; }
+      .m-search .search-container svg.-cross:hover {
+        fill: #ed1846; }
     .m-search .search-container svg.-active {
       display: block; }
   .m-search .search-container input {
