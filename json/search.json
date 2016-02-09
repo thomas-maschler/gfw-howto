@@ -28,6 +28,15 @@
     } ,
   
     {
+      "title"    : "Test faq GFW 6",
+      "category" : "faqs",
+      "tags"     : "",
+      "url"      : "/gfw-howto/faqs/faq-gfw.html",
+      "date"     : "2006-01-01 00:00:00 +0100",
+      "content"  : "GFW aims3 to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
+    } ,
+  
+    {
       "title"    : "Test GFW 5",
       "category" : "gfw",
       "tags"     : "submit a story",
@@ -37,12 +46,30 @@
     } ,
   
     {
+      "title"    : "Test faq GFW 5",
+      "category" : "faqs",
+      "tags"     : "",
+      "url"      : "/gfw-howto/faqs/faq-gfw.html",
+      "date"     : "2005-01-01 00:00:00 +0100",
+      "content"  : "GFW aims3 to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
+    } ,
+  
+    {
       "title"    : "Test GFW 4",
       "category" : "gfw",
       "tags"     : "suscribe to alerts",
       "url"      : "/gfw-howto/gfw/test-gfw4.html",
       "date"     : "2004-01-01 00:00:00 +0100",
       "content"  : "GFW 4"
+    } ,
+  
+    {
+      "title"    : "Test GFW 4",
+      "category" : "faqs",
+      "tags"     : "",
+      "url"      : "/gfw-howto/faqs/faq-gfw4.html",
+      "date"     : "2004-01-01 00:00:00 +0100",
+      "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
   
     {
@@ -61,6 +88,15 @@
       "url"      : "/gfw-howto/faqs/faq-gfw3.html",
       "date"     : "2003-01-01 00:00:00 +0100",
       "content"  : "GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
+    } ,
+  
+    {
+      "title"    : "Test faq Climate 3",
+      "category" : "faqs",
+      "tags"     : "",
+      "url"      : "/gfw-howto/faqs/faq-climate3.html",
+      "date"     : "2003-01-01 00:00:00 +0100",
+      "content"  : "GFW aims3 to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales."
     } ,
   
     {
@@ -202,12 +238,16 @@
   
    {
      
+   } ,
+  
+   {
+     
         "title"    : "FAQ&#39;s",
         "category" : "",
         "tags"     : "",
         "url"      : "/gfw-howto/faqs/",
         "date"     : "",
-        "content"  : "        How to / Faq's    FAQ's                                                                                                      Who can use global forest watch?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                        Who is behind global forest watch?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                              What updates are coming down the road for GFW?                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                  Test faq Climate                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                  Test faq Climate 2                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                                              Test faq Fires                                                    GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:  Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.  NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.  Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.  Media can gather evidence, data, and graphics for reporting.  Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.  Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+        "content"  : "        How to / Faq's    FAQ's            All aplications      GFW      Climate      Fires      Commodities      "
      
    } ,
   
