@@ -154,6 +154,15 @@
     } ,
   
     {
+      "title"    : "ODP Overview",
+      "category" : "odp",
+      "tags"     : "tutorial videos",
+      "url"      : "/gfw-howto/odp/tutorial-overview.html",
+      "date"     : "2001-01-05 00:00:00 +0100",
+      "content"  : "        "
+    } ,
+  
+    {
       "title"    : "Test faq GFW 5",
       "category" : "faqs",
       "tags"     : "",
@@ -178,6 +187,15 @@
       "url"      : "/gfw-howto/climate/tutorial-country-profile-pages.html",
       "date"     : "2001-01-05 00:00:00 +0100",
       "content"  : "        "
+    } ,
+  
+    {
+      "title"    : "Download raster data in the open data portal",
+      "category" : "odp",
+      "tags"     : "visualize data",
+      "url"      : "/gfw-howto/odp/download-raster-data.html",
+      "date"     : "2001-01-04 00:00:00 +0100",
+      "content"  : "  Raster refers to a type of spatial data, which defines space by pixels, or equally sized cells arranged by rows and columns. Each pixel contains a single attribute value and its coordinate location. Pixel values correspond to real-world features such as the year tree cover was lost, or the percent of canopy cover in that location.  Steps to download raster data in the ODP:  1. Find and open a raster data set in the Open Data Portal, for example, tree cover loss.  2. Since global data sets cannot be downloaded for the entire world, use the interactive web-map to zoom in on your area of interest. The extent of the web-map will determine the extent of your data, when downloaded.    3. Select "DOWNLOAD DATASET" and choose one of the data types under the “Download Filtered Dataset” section. The TIFF format is encoded with raster values and is spatially referenced so you can add it to a GIS.    4. Once you select a download format from the “DOWNLOAD DATASET” button, your download will begin. Download times may vary based on the size of your data request. Having trouble downloading a data set? Let us know!  Steps to Download Raster Data by Country:  The easiest way to download the tree cover loss raster data set for an entire country is to search for that country in the Open Data Portal. The GFW team is committed to making more of our global raster data sets downloadable by country.  1. From the Open Data Portal homepage navigate to the “VIEW COUNTRY DATA” search box.    2. Use the drop-down menu to select a country of interest. for example, Brazil.  3. In the search results page, select the tree cover loss data for that country (Brazil tree cover loss), and your download should start immediately.  "
     } ,
   
     {
@@ -214,6 +232,15 @@
       "url"      : "/gfw-howto/climate/pantropical-overview.html",
       "date"     : "2001-01-04 00:00:00 +0100",
       "content"  : "  Visualize global data on the GFW Interactive Map  1.  Navigate to the GFW Interactive Map.  2.  Available global data layers are organized by category across the top of the map. Click through the tabs to select the data layer(s) you want to display. Tree cover loss and gain are displayed by default.    3.  Click the information icon in the drop down menu to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more or download the data set on the Open Data Portal.    4.  View activated layers in the data legend on the left-hand side of the map.    For data layers that cover a limited geographic region, you can turn on “Geographic coverage” in the data legend to see the geographic extent of the data layer on the map.    For tree cover and tree cover loss data layers, you can adjust the tree canopy density of your data display and analysis by clicking on the highlighted percent canopy density within the legend.    5.  Zoom in and out, share your map view, hide the windows, search the Google base map, and refresh the page using the buttons located on the bottom left-hand side of the map.    6.  Change the base map to view data with a different map background.        GFW Interactive Map    Visualize data as a time series  For most data layers under the Forest Change tab, the default view shows cumulative data points over the entire study period. However, most of these layers can also be viewed as a time series. The specific time intervals (e.g., annual, monthly, daily) vary for each data layer.  1.  Select the Forest Change data layer you want to view as a time series.  2.  On the bottom of the map, locate the timeline.  3.  Some timelines allow you to animate the data over time or select a time interval. Press the play button on the left to view an animation of the entire time series or drag the ends of the timeline to select a specific period of time.    4.  For data layers with a simple timeline, select the period for which you would like to view data.        View UMD/Google Data    View FORMA data    View Imazon Data    View QUICC Data    Learn more about individual data points and polygons  Some data layers allow you to click on individual data points and polygons (i.e., shapes) to view additional information. This feature applies to NASA active fires (within the Forest Change tab) and/or data within the Forest Use, Conservation, People, and Stories tabs.  1.  Select a data layer, noting that this feature only applies to certain layers (see above).  2.  Click on the data point or polygon you want to learn more about and an information window will appear. Note: You can analyze Forest Change data within individual land-use concessions and protected areas by selecting the analysis button in the information window. Click the Analyze Forest Change tab on this page for step-by-step guidance.  Visualize global data on the GFW Interactive Map  1.  Navigate to the GFW Interactive Map.  2.  Available data layers are organized by category within the Data Layers drop down menu. Tap on Global Data or Country Data and then search through the categories to select the data layer(s) you want to display. Once the layers are selected, tap Go to Map. Tree cover loss and gain are displayed by default.      &lt;%= image_tag('howto-screenshots-mobile/img10.png') %&gt;    &lt;%= image_tag('howto-screenshots-mobile/img11-1.png') %&gt;    &lt;%= image_tag('howto-screenshots-mobile/img12.png') %&gt;    3.  Tap the information icon next to each layer name to learn more about each data layer. This includes information such as data resolution, frequency, cautions, and a link to learn more or download the data set on the Open Data Portal.  &lt;%= image_tag('howto-screenshots-mobile/img13-1.png') %&gt;  4.  View activated layers by tapping on the data legend on the right-hand side of the map.  &lt;%= image_tag('howto-screenshots-mobile/img14-1.png') %&gt;  5.  For data layers that cover a limited geographic region, you can turn on “Geographic coverage” in the data legend to see the geographic extent of the data layer on the map.  &lt;%= image_tag('howto-screenshots-mobile/img51-1.png') %&gt;  6.  For tree cover loss and tree cover extent data layers, you can adjust the tree canopy density of your data display and analysis by tapping on the highlighted percent canopy density within the legend.  &lt;%= image_tag('howto-screenshots-mobile/img15-1.png') %&gt;  7.  Share your map view, zoom in and out, refresh the page, search the Google base map and geo-locate your position using the buttons along the right side of the map.  &lt;%= image_tag('howto-screenshots-mobile/img14-2.png') %&gt;  8.  Change the base map to view data with a different map background. Tap on the Data Layers button and then the Basemaps button. Once you select a basemap, tap Return to Map.    &lt;%= image_tag('howto-screenshots-mobile/img11-3.png') %&gt;      &lt;%= image_tag('howto-screenshots-mobile/img16.png') %&gt;    Visualize data for different time periods  For most data layers under the Forest Change tab, the default view shows cumulative data points over the entire study period. However, most of these layers can also be viewed for other specified time periods. The specific time intervals (e.g., annual, monthly, and daily) vary for each data layer.  1.  Select the Forest Change data layer you want to view.  2.  On the bottom of the map, locate the timeline and select the period for which you would like to view data.  &lt;%= image_tag('howto-screenshots-mobile/img17.png') %&gt;  Learn more about individual data points and polygons  Some data layers allow you to click on individual data points and polygons (i.e., shapes) to view additional information.  1.  Select a data layer(s) under the Global Data and Country Data tabs.  2.  Tap on the data point or polygon you want to learn more about and an information window will appear.  4.  You can analyze Forest Change data within individual points or polygons by tapping on the Analyze button at the bottom of the information window."
+    } ,
+  
+    {
+      "title"    : "Explore data in the open data portal",
+      "category" : "odp",
+      "tags"     : "visualize data",
+      "url"      : "/gfw-howto/odp/explore-data.html",
+      "date"     : "2001-01-03 00:00:00 +0100",
+      "content"  : "  1. Explore data on the map Once you have selected a data set, a map will load at the top of its profile page where you can view the data features (e.g., logging concession polygons). Hover over each feature to learn more about it, or click on a feature to view a complete list of attributes.    Using the menu on the bottom of the map, you can toggle between base map views, adjust the map size, zoom and search for geographic features.    2. Explore data details Key metadata for each data set is listed in the “Details” page in the ODP. Select “more” to view a summary of the data set, or learn about the data category under “About” by selecting the category name (e.g. “logging”).    3. Explore data tables Click the “Table” tab to preview a complete list of each data set’s attributes. You can filter or sort the table by attribute field or location using the options on the right-hand side of the table. For example, if you want to view data only for specific logging companies, you could sort the table by the “company” field.    To filter the data by location, select “Filter by Map View” from the right-hand side of the table. Using the map view, zoom in on an area of interest, and the data will dynamically filter in the map. In the example below, notice how the table is only displaying 12 of the 30,000 features.    4. Explore data charts  The charts view provides a visually engaging way to understand GFW data. Select the attribute you want to display from the “Chart Table” drop-down menu, and stylize your chart with distinctive colors. Like the chart you made? You can embed the chart in a website by copying the iframe html code.  "
     } ,
   
     {
@@ -271,6 +298,15 @@
     } ,
   
     {
+      "title"    : "Download data in the open data portal",
+      "category" : "odp",
+      "tags"     : "visualize data",
+      "url"      : "/gfw-howto/odp/download-data.html",
+      "date"     : "2001-01-02 00:00:00 +0100",
+      "content"  : "  In the ODP you can download data with one-click and choose from multiple download formats such as .csv, .shp, KML, JPEG, PNG, TIFF, and API. The ODP makes it easy to quickly access GFW data and add them to your favorite tools including, but not limited to, ArcMap, ArcGIS Online, Google Earth, ERDAS Imagine, and Excel.  Once a search is executed, you can download a data set from the results page by selecting the “download” icon on the right-hand side of the results page. Larger and more detailed data sets will take longer to download.    You can also select a data set from the results page to view its profile page. From a profile page you can select “DOWNLOAD DATASET” and choose your download format. The download drop-down will also provide an option to “Download Filtered Dataset,” determined by a map or attribute filter.  "
+    } ,
+  
+    {
       "title"    : "Visualize country data",
       "category" : "gfw",
       "tags"     : "visualize data",
@@ -325,12 +361,12 @@
     } ,
   
     {
-      "title"    : "ODP Overview",
+      "title"    : "Find data in the open data portal",
       "category" : "odp",
-      "tags"     : "tutorial videos",
-      "url"      : "/gfw-howto/odp/tutorial-overview.html",
+      "tags"     : "visualize data",
+      "url"      : "/gfw-howto/odp/find-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
-      "content"  : "        "
+      "content"  : "  There are four ways to find data in the ODP:  1. Search by keywords   Click “Search for open data” on the right-hand side of the homepage (below the map) and type in your keywords, then click “Enter” to see a list of results in the lower portion of the page.    2. Search by category  From the homepage, select a category of GFW data to view a list of related data sets.    3. Search by location Click “Search Within Map” on the right-hand side of the homepage and zoom to your area of interest on the map. Then click “Search for open data” and click “Enter” to view all data sets that are available in the defined area, or enter keywords to filter the results even further.    Additionally, you can select a country of interest from the “VIEW COUNTRY DATA” dropdown on the home-page to examine all data available for a particular country.    4. Find Related Content  Once you select a dataset, you can find thematically related content from the suggested “related datasets” section at the bottom of a data set’s profile page.    Similar content can also be found by clicking on a tag from each dataset’s profile page to prompt a new search based on that tag.  "
     } ,
   
     {
