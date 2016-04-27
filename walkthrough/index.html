@@ -257,20 +257,32 @@
       <div class="l-content">
         <header class="m-header">
   <h2>Walkthrough</h2>
-  <p>Here you have a basic and quick example of a walkthrough</p>
-  <!-- <p>First of all, the difference between action and event is that an action will be triggered by us and an event will be triggered by the user.</p> -->
-  <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// WALKTHROUGH EXAMPLE</span>
+</header>
+
+<section class="m-post">
+  <div class="content" style="display: block;">
+    <p>In this documentation we are going to learn how to create walkthroughs. The first thing we should know is that a walkthrough have the following params:</p>
+    <ul>
+      <li><code class="code">name</code> (string)</li>
+      <li><code class="code">slug</code> (string)</li>
+      <li><code class="code">steps</code> (array)</li>
+    </ul>
+    <p>The most basic thing before we start a new walkthrough is to know the difference between <strong>actions</strong> and <strong>events</strong>.</p>
+    <p><strong>Actions</strong>: They are steps handled and triggered by us (the creator of the walkthrough). For example, at step 3 we we decided to change the active layers of the map, the range of dates...</p>
+    <p><strong>Events</strong>: They are steps where we expect an iteraction from the user. For example, we expect a change on the timeline, a change in the layers...</p>
+    <!-- <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// WALKTHROUGH EXAMPLE</span>
 <span class="p">[{</span>
   <span class="na">name</span><span class="p">:</span> <span class="s1">'Glad alerts'</span><span class="p">,</span>
   <span class="na">slug</span><span class="p">:</span> <span class="s1">'glad-alerts'</span><span class="p">,</span>
-  <span class="na">id</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
   <span class="c1">// see step documentation</span>
   <span class="na">steps</span><span class="p">:</span> <span class="p">[{</span>
+    <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
     <span class="na">category</span><span class="p">:</span> <span class="s1">'layers'</span><span class="p">,</span>
     <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">layers</span><span class="p">:</span> <span class="p">[</span><span class="s1">'loss'</span><span class="p">,</span> <span class="s1">'forestgain'</span><span class="p">,</span> <span class="p">...]</span>
     <span class="p">}</span>
   <span class="p">},{</span>
+    <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
     <span class="na">category</span><span class="p">:</span> <span class="s1">'timeline'</span><span class="p">,</span>
     <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">dates</span><span class="p">:</span> <span class="p">{</span>
@@ -280,27 +292,63 @@
     <span class="p">}</span>
   <span class="p">}]</span>
 <span class="p">}]</span></code></pre></figure>
-  
-</header>
+   -->
 
-<section class="m-post">
-  <div class="content" style="display: block;">
-    <h2>Step</h2>
-    <p>First of all, each step belongs to a category (and it can only have one) and it has an 'options' param. Those are the basic params that a step should have.</p>
-    <p>For each category the options are different, here you have the list of categories. We are going to explain in detail each one. Even if the step has multiple options, for each step you can only set one of them</p>
+
+
+
+
+    <br>
+    <br>
+    <h2>Steps</h2>
+    <p>First of all, each step must have a type, it belongs to a category (it can only have one) and it has an 'options' param. Those are the basic params that a step should have.</p>
     <ul>
-      <li><a href="#walkthrough-layers">Layers</a></li>
-      <li><a href="#walkthrough-tab">Tab</a></li>
-      <li><a href="#walkthrough-timeline">Timeline</a></li>
-      <li><a href="#walkthrough-country">Country</a></li>
-      <li><a href="#walkthrough-analysis">Analysis</a></li>
-      <li><a href="#walkthrough-map">Map</a></li>
+      <li><code class="code">type</code> - (string)</li>
+      <li><code class="code">category</code> - (string)</li>
+      <li><code class="code">options</code> (object)</li>
+    </ul>
+
+
+    <br>
+    <br>
+    <h2>Types</h2>
+    <h3>Types <code class="code">type</code></h3>
+    <p>The difference between action and event is that an action will be triggered by us and an event will be triggered by the user.</p>
+    <ul>
+      <li><a href="#walkthrough-actions">Action steps</a> - <code class="code -string">action</code></li>
+      <li><a href="#walkthrough-events">Event steps</a> - <code class="code -string">event</code></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <!-- ACTION STEPS -->
+    <h2>Categories</h2>
+    <h3>Categories <code class="code">category</code></h3>
+    <ul>
+      <li><a href="#walkthrough-layers">Layers</a> => <code class="code -string">layers</code></li>
+      <li><a href="#walkthrough-tab">Tab</a> => <code class="code -string">tab</code></li>
+      <li><a href="#walkthrough-timeline">Timeline</a> => <code class="code -string">timeline</code></li>
+      <li><a href="#walkthrough-country">Country</a> => <code class="code -string">country</code></li>
+      <li><a href="#walkthrough-analysis">Analysis</a> => <code class="code -string">analysis</code></li>
+      <li><a href="#walkthrough-map">Map</a> => <code class="code -string">map</code></li>
     </ul> 
+    
+
+    <h2 id="walkthrough-actions">Action Steps</h2>
     <!-- Layers -->
-    <h3 id="walkthrough-layers">Layers</h3>
-    <p>We need to set a 'layers' param equal to an array of layer slugs. You can find here the slugs <a href="https://wri-01.cartodb.com/tables/layerspec_nuclear_hazard" target="_blank">Layerspec</a>. If you want to set a country layer, you should first set the <a href="#walkthrough-country">country</a></p>
+    <h3 id="walkthrough-layers">Layers <code class="code">layers</code></h3>
+    <p>We need to set a <code class="code">layers</code> param equal to an array of layer slugs. You can find the slugs here <a href="https://wri-01.cartodb.com/tables/layerspec_nuclear_hazard" target="_blank">Layerspec</a>. If you want to set a country layer, you should first set the <a href="#walkthrough-country">country</a></p>
     <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// LAYERS STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'layers'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">layers</span><span class="p">:</span> <span class="p">[</span><span class="s1">'loss'</span><span class="p">,</span> <span class="s1">'forestgain'</span><span class="p">,</span> <span class="s1">'protected_areas'</span><span class="p">]</span> <span class="c1">// layers should be an array</span>
@@ -308,17 +356,20 @@
 <span class="p">}]</span></code></pre></figure>
  
 
+    
+
     <!-- Tab -->
-    <h3 id="walkthrough-tab">Tab</h3>
-    <p>We can set an active tab or a subtab (like the analysis ones).</p>
+    <h3 id="walkthrough-tab">Tab <code class="code">tab</code> <code class="code">subtab</code></h3>
+    <p>We can set an active <code class="code">tab</code> or a <code class="code">subtab</code> (like the analysis ones).</p>
     <ul>
-      <li>Country => 'countries-tab'</li>
-      <li>Analysis => 'analysis-tab'</li>
-      <li>Basemaps => 'basemaps-tab'</li>
-      <li>High res => 'hd-tab'</li>
+      <li>Country => <code class="code -string">countries-tab</code></li>
+      <li>Analysis => <code class="code -string">analysis-tab</code></li>
+      <li>Basemaps => <code class="code -string">basemaps-tab</code></li>
+      <li>High res => <code class="code -string">hd-tab</code></li>
     </ul>
     <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// TAB STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'tab'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="c1">// Choose one of these ['countries-tab','analysis-tab','basemaps-tab','hd-tab']</span>
@@ -326,17 +377,20 @@
 
     <span class="c1">// Choose one of these ['draw-tab','country-tab','data-tab']</span>
     <span class="c1">// If you set a subtab, the tab is mandatory. </span>
-    <span class="c1">// For the moment, we only have subtabs in the analysis tab</span>
+    <span class="c1">// For the moment, we only have subtabs in the 'analysis tab'</span>
     <span class="na">subtab</span><span class="p">:</span> <span class="s1">'draw-tab'</span>
   <span class="p">}</span>
 <span class="p">}]</span></code></pre></figure>
  
     
+    
+
     <!-- Timeline -->
-    <h3 id="walkthrough-timeline">Timeline</h3>
-    <p>We need to set a 'dates' param equal to an object with a 'begin' and 'end' param. Of course, the dates should be between the range of dates allowed by the current forest change layer. The format of the dates should be 'dd/mm/YYYY'</p>
+    <h3 id="walkthrough-timeline">Timeline <code class="code">dates</code></h3>
+    <p>We need to set a <code class="code">dates</code> param equal to an object with a <code class="code">begin</code> and <code class="code">end</code> param. Of course, the dates should be between the range of dates allowed by the current forest change layer. The format of the dates should be 'dd/mm/YYYY'</p>
     <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// TIMELINE STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'timeline'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">dates</span><span class="p">:</span> <span class="p">{</span>
@@ -347,11 +401,14 @@
 <span class="p">}]</span></code></pre></figure>
  
 
+    
+
     <!-- Country -->
-    <h3 id="walkthrough-country">Country</h3>
-    <p>We need to set an 'iso' param with 2 params: 'country' and 'region'</p>
+    <h3 id="walkthrough-country">Country <code class="code">iso</code></h3>
+    <p>We need to set an <code class="code">iso</code> param with 2 params: <code class="code">country</code> and <code class="code">region</code></p>
     <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// COUNTRY STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'country'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">iso</span><span class="p">:</span> <span class="p">{</span>
@@ -362,39 +419,99 @@
 <span class="p">}]</span></code></pre></figure>
  
 
+    
+
     <!-- Analysis -->
-    <h3 id="walkthrough-analysis">Analysis</h3>
-    <p>We must specify the type of the analysis, so the 'analysis' param is mandatory. we have 3 different types of analysis:</p>
+    <h3 id="walkthrough-analysis">Analysis <code class="code">analysis</code></h3>
+    <p>We must specify the type of the analysis, so the <code class="code">analysis</code> param is mandatory. we have 3 different types of analysis:</p>
     <ul>
-      <li>'draw' - Draw or upload shape</li>
-      <li>'country' - Country or region</li>
-      <li>'area' - Area</li>
+      <li><code class="code -string">draw</code> - Analyze a draw or an custom geometry</li>
+      <li><code class="code -string">country</code> - Analyze a country or region</li>
+      <li><code class="code -string">area</code> - Analyze a custom area by id or by geometry</li>
     </ul>
-    <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// ANALYSIS STEP EXAMPLE</span>
+    <h4>Draw <code class="code">shape</code></h4>
+    <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// DRAW ANALYSIS STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'analysis'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="c1">// Choose one of these ['draw','country','area']  </span>
     <span class="na">analysis</span><span class="p">:</span> <span class="s1">'draw'</span><span class="p">,</span> <span class="c1">// String</span>
 
+    <span class="c1">// Set the geometry as geojson</span>
+    <span class="na">shape</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">type</span><span class="p">:</span> <span class="s2">"Feature"</span><span class="p">,</span>
+      <span class="na">geometry</span><span class="p">:</span> <span class="p">{</span> 
+        <span class="c1">// ... </span>
+      <span class="p">}</span>
+    <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}]</span></code></pre></figure>
  
 
+    <h4>Country <code class="code">iso</code></h4>
+    <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// COUNTRY ANALYSIS STEP EXAMPLE</span>
+<span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
+  <span class="na">category</span><span class="p">:</span> <span class="s1">'analysis'</span><span class="p">,</span>
+  <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
+    <span class="c1">// Choose one of these ['draw','country','area']  </span>
+    <span class="na">analysis</span><span class="p">:</span> <span class="s1">'country'</span><span class="p">,</span> <span class="c1">// String</span>
+
+    <span class="c1">// Country is mandatory; Region isn't</span>
+    <span class="na">iso</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">country</span><span class="p">:</span> <span class="s1">'BRA'</span><span class="p">,</span>
+      <span class="na">region</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">}</span>
+
+  <span class="p">}</span>
+<span class="p">}]</span></code></pre></figure>
+ 
+
+    <h4>Area <code class="code">type</code> <code class="code">area_id</code> <code class="code">shape</code></h4>
+    <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// AREA ANALYSIS STEP EXAMPLE</span>
+<span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
+  <span class="na">category</span><span class="p">:</span> <span class="s1">'analysis'</span><span class="p">,</span>
+  <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
+    <span class="c1">// Choose one of these ['draw','country','area']  </span>
+    <span class="na">analysis</span><span class="p">:</span> <span class="s1">'area'</span><span class="p">,</span> <span class="c1">// String</span>
+
+    <span class="c1">// Choose one of these ['id','geometry']  </span>
+    <span class="na">type</span><span class="p">:</span> <span class="s1">'id'</span><span class="p">,</span>
+
+    <span class="c1">// Depending on the type we will need</span>
+    <span class="c1">// id =&gt; area_id (protected_areas, concessions)</span>
+    <span class="na">area_id</span><span class="p">:</span> <span class="mi">4357</span><span class="p">,</span>
+
+    <span class="c1">// geometry =&gt; shape (geojson)</span>
+    <span class="na">shape</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">type</span><span class="p">:</span> <span class="s2">"Feature"</span><span class="p">,</span>
+      <span class="na">geometry</span><span class="p">:</span> <span class="p">{</span> 
+        <span class="c1">// ... </span>
+      <span class="p">}</span>
+    <span class="p">}</span> 
+  <span class="p">}</span>
+<span class="p">}]</span></code></pre></figure>
+ 
+
+    
+
     <!-- Map -->
-    <h3 id="walkthrough-map">Map</h3>
+    <h3 id="walkthrough-map">Map <code class="code">zoom</code> <code class="code">location</code> <code class="code">basemap</code></h3>
     <p>We have different possibilities here. We can set a zoom level, a location or a basemap. Just remember that you can only change one thing per step. For the basemaps, here you have a list of the ids of the basemaps.</p>
     <ul>
-      <li>Default => 'grayscale'</li>
-      <li>Terrain => 'terrain'</li>
-      <li>Satellite => 'satellite'</li>
-      <li>Dark Matter => 'dark'</li>
-      <li>Positron => 'positron'</li>
-      <li>Roads => 'hybrid'</li>
-      <li>Tree height => 'treeheight'</li>
+      <li>Default => <code class="code -string">grayscale</code></li>
+      <li>Terrain => <code class="code -string">terrain</code></li>
+      <li>Satellite => <code class="code -string">satellite</code></li>
+      <li>Dark Matter => <code class="code -string">dark</code></li>
+      <li>Positron => <code class="code -string">positron</code></li>
+      <li>Roads => <code class="code -string">hybrid</code></li>
+      <li>Tree height => <code class="code -string">treeheight</code></li>
     </ul>
     <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// MAP STEP EXAMPLE</span>
 <span class="p">[{</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'action'</span><span class="p">,</span>
   <span class="na">category</span><span class="p">:</span> <span class="s1">'map'</span><span class="p">,</span>
   <span class="na">options</span><span class="p">:</span> <span class="p">{</span>
     <span class="na">zoom</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="c1">// Integer</span>
@@ -408,6 +525,21 @@
   <span class="p">}</span>
 <span class="p">}]</span></code></pre></figure>
  
+
+    
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <!-- EVENTS -->
+    <h2 id="walkthrough-events">Events Steps</h2>
+
+
 
   </div>
 </section>
