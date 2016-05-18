@@ -9,9 +9,13 @@
 @import "modules/breadcrumbs";
 @import "modules/header";
 @import "modules/aside";
+@import "modules/apps-tag";
+@import "modules/search";
 @import "modules/section";
 @import "modules/content-grid";
 @import "modules/blog";
+@import "modules/filters";
+@import "modules/checkbox";
 
 // Faqs
 @import "modules/faqs";
@@ -24,8 +28,7 @@
 
 // By...
 @import "modules/by-app";
-@import "modules/by-faqs";
-@import "modules/by-theme";
+@import "modules/by-ranking";
 
 // Sintax
 @import "syntax";

@@ -33,8 +33,8 @@
     setListeners: function() {
       this.listenTo(this.router, 'route:home', this.homePage);
       this.listenTo(this.router, 'route:faqs', this.faqsPage);
-      this.listenTo(this.router, 'route:category', this.appPage);
-      this.listenTo(this.router, 'route:tag', this.themePage);
+      this.listenTo(this.router, 'route:category', this.categoryPage);
+      this.listenTo(this.router, 'route:tag', this.tagPage);
       this.listenTo(this.router, 'route:post', this.postPage);
     },
 
@@ -46,8 +46,8 @@
     },
 
     homePage: function() {
-      this.sliderView = new root.app.View.SliderView();
       this.asideView = new root.app.View.AsideView({ options: { model: { id: null }}});
+      this.searchView = new root.app.View.SearchView();
     },
 
     faqsPage: function() {
@@ -56,8 +56,9 @@
       this.asideView = new root.app.View.AsideView({ options: { model: { id: 'faqs' }}});
     },
 
-    appPage: function(id) {
-      this.sliderView = new root.app.View.SliderView();
+    categoryPage: function(id) {
+      this.filtersView = new root.app.View.FiltersView({});
+      this.contentView = new root.app.View.ContentView({});      
       this.asideView = new root.app.View.AsideView({
         options: {
           model: {
@@ -67,15 +68,8 @@
       });
     },
 
-    themePage: function(id) {
-      this.sliderView = new root.app.View.SliderView();
-      this.asideView = new root.app.View.AsideView({
-        options: {
-          model: {
-            id: id
-          }
-        }
-      });
+    tagPage: function(id) {
+      this.asideView = new root.app.View.AsideView({});
     },
 
     postPage: function() {
@@ -85,7 +79,6 @@
 
     setGlobalViews: function() {
       this.blogView = new root.app.View.BlogView();
-      this.searchView = new root.app.View.SearchView();
     }
 
   });

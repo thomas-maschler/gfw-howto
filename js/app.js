@@ -12,19 +12,16 @@
     el: '#asideView',
 
     events: {
-      'click .toggle-themes' : 'toggleThemes'
+      'click .js-toggle-list' : 'toggleSubmenu'
     },
 
     model: new (Backbone.Model.extend({
-      defaults: {
-        collapsed: true
-      }
     })),
 
     initialize: function(settings) {
       var opts = settings && settings.options ? settings.options : {};
       this.options = _.extend({}, this.defaults, opts);
-      this.setListeners();
+      this.listeners();
       this.cache();
 
       // inits
@@ -32,27 +29,11 @@
     },
 
     cache: function() {
-      // html vars
-      this.$asideThemeView = $('#asideThemeView');
-      this.$contentThemeNames = $('#contentThemeView > li');
-
       // model vars
       this.model.set(this.options.model);
-      this.model.set('themes',this.$asideThemeView.find('li'));
     },
 
-    setListeners: function() {
-      this.model.on('change:id', this.getData.bind(this));
-    },
-
-    renderThemes: function(arr) {
-      this.$asideThemeView.html(this.parseThemes(arr));
-    },
-
-    parseThemes: function(arr) {
-      return _.reduce(arr, function(memo, item){
-        return memo + $(item)[0].outerHTML;
-      }, '');
+    listeners: function() {
     },
 
     highlight: function() {
@@ -62,16 +43,13 @@
       }
     },
 
-    getData: function() {
-      var submenu =  _.compact(_.map(this.$contentThemeNames, function(el) {
-        if ($(el).hasClass('-active')) {
-          return {
-            title: $(el).data('title'),
-            id: $(el).data('id')
-          }
-        }
-      }));
-      this.model.set('submenu', submenu);
+    toggleSubmenu: function(e) {
+      e && e.preventDefault();
+      var submenuId = $(e.currentTarget).data('submenu');
+      var $submenu = $('#'+submenuId);
+
+      $(e.currentTarget).toggleClass('-collapsed');
+      $submenu.toggleClass('-collapsed');
     },
 
   });
@@ -141,6 +119,61 @@
       .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
       .replace(/\-\-+/g, '-');        // Replace multiple - with single -
     },
+
+  });
+
+})(this);
+
+(function(root) {
+
+  'use strict';
+
+  root.app = root.app || {};
+  root.app.View = root.app.View || {};
+  root.app.Model = root.app.Model || {};
+
+  // View for display results
+  root.app.View.ContentView = Backbone.View.extend({
+
+    el: '#contentView',
+
+    model: new (Backbone.Model.extend({
+      defaults: {
+        filters: []
+      }
+    })),
+
+    initialize: function(settings) {
+      var opts = settings && settings.options ? settings.options : {};
+      this.options = _.extend({}, this.defaults, opts);
+      this.listeners();
+      this.cache();
+    },
+
+    cache: function() {
+      this.$cards = this.$el.find('.m-content-item');
+    },
+
+    listeners: function() {
+      this.model.on('change:filters', this.filter.bind(this));
+
+      Backbone.Events.on('Filters/change', function(filters){
+        this.model.set('filters', _.clone(filters));
+      }.bind(this));
+    },
+
+    filter: function() {
+      var filters = this.model.get('filters');
+
+      if (!!filters.length) {
+        _.each(this.$cards, function(card){
+          var visible = _.intersection(filters, $(card).data('tags').split(' ')); 
+          $(card).toggleClass('-invisible', ! !!visible.length);
+        }.bind(this));
+      } else {
+        this.$cards.toggleClass('-invisible', false);
+      }
+    }
 
   });
 
@@ -292,6 +325,63 @@
     filterByApp: function(e) {
       var value = $(e.currentTarget).val();
       Backbone.Events.trigger('faqs/filter', value);
+    }
+
+  });
+
+})(this);
+
+(function(root) {
+
+  'use strict';
+
+  root.app = root.app || {};
+  root.app.View = root.app.View || {};
+  root.app.Model = root.app.Model || {};
+
+  // View for display results
+  root.app.View.FiltersView = Backbone.View.extend({
+
+    el: '#filtersView',
+
+    events: {
+      'change .js-checkbox-tag' : 'setFilters'
+    },
+
+    model: new (Backbone.Model.extend({
+      defaults: {
+        filters: []
+      }
+    })),
+
+    initialize: function(settings) {
+      var opts = settings && settings.options ? settings.options : {};
+      this.options = _.extend({}, this.defaults, opts);
+      this.listeners();
+      this.cache();
+    },
+
+    cache: function() {
+      this.$checkbox = this.$el.find('[name="checkbox-tag"]');
+    },
+
+    listeners: function() {
+      this.model.on('change:filters', this.changeFilters.bind(this));
+    },
+
+    setFilters: function() {
+      var filters = _.compact(_.map(this.$checkbox, function(el){
+        var checked = $(el).is(':checked');
+        if (checked) {
+          return $(el).data('tag')
+        }
+      }.bind(this)));
+      console.log(filters);
+      this.model.set('filters', _.clone(filters));
+    },
+
+    changeFilters: function() {
+      Backbone.Events.trigger('Filters/change', this.model.get('filters'));
     }
 
   });
@@ -631,9 +721,9 @@
       // HOME
       'faqs(/)': 'faqs',
       // APP
-      'apps/:id(/)': 'category',
+      'categories/:id(/)': 'category',
       //THEME
-      'themes/:id(/)': 'tag',
+      'tags/:id(/)': 'tag',
       // POST
       'gfw/:id' : 'post',
       'climate/:id' : 'post',
@@ -776,8 +866,8 @@
     setListeners: function() {
       this.listenTo(this.router, 'route:home', this.homePage);
       this.listenTo(this.router, 'route:faqs', this.faqsPage);
-      this.listenTo(this.router, 'route:category', this.appPage);
-      this.listenTo(this.router, 'route:tag', this.themePage);
+      this.listenTo(this.router, 'route:category', this.categoryPage);
+      this.listenTo(this.router, 'route:tag', this.tagPage);
       this.listenTo(this.router, 'route:post', this.postPage);
     },
 
@@ -789,8 +879,8 @@
     },
 
     homePage: function() {
-      this.sliderView = new root.app.View.SliderView();
       this.asideView = new root.app.View.AsideView({ options: { model: { id: null }}});
+      this.searchView = new root.app.View.SearchView();
     },
 
     faqsPage: function() {
@@ -799,8 +889,9 @@
       this.asideView = new root.app.View.AsideView({ options: { model: { id: 'faqs' }}});
     },
 
-    appPage: function(id) {
-      this.sliderView = new root.app.View.SliderView();
+    categoryPage: function(id) {
+      this.filtersView = new root.app.View.FiltersView({});
+      this.contentView = new root.app.View.ContentView({});      
       this.asideView = new root.app.View.AsideView({
         options: {
           model: {
@@ -810,15 +901,8 @@
       });
     },
 
-    themePage: function(id) {
-      this.sliderView = new root.app.View.SliderView();
-      this.asideView = new root.app.View.AsideView({
-        options: {
-          model: {
-            id: id
-          }
-        }
-      });
+    tagPage: function(id) {
+      this.asideView = new root.app.View.AsideView({});
     },
 
     postPage: function() {
@@ -828,7 +912,6 @@
 
     setGlobalViews: function() {
       this.blogView = new root.app.View.BlogView();
-      this.searchView = new root.app.View.SearchView();
     }
 
   });
