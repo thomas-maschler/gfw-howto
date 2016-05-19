@@ -146,8 +146,19 @@
     <div class="l-wrapper">
       <h1 class="l-logo"><a href="/gfw-howto/">GFW How to portal</a></h1>
       <aside id="asideView" class="l-aside">
-        <div class="m-aside">
-  <h2 class="js-toggle-list" data-submenu="subjects-submenu">Subjects <svg><use xlink:href="#icon-arrowdown"></use></svg></h2>
+        <div class="m-aside">  
+  <div id="searchAsideView" class="m-search -small">
+    <div class="search-container">
+      <svg class="-active -search"><use xlink:href="#icon-search"></use></svg>
+      <svg id="search-close" class="-cross"><use xlink:href="#icon-cross"></use></svg>
+      <input id="search-input" type="text" placeholder="How do I analyze data?">
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+  </div>  
+</div>
+
+<div class="m-aside">
+  <h2 class="js-toggle-list" data-submenu="subjects-submenu">Subjects <svg><use xlink:href="#icon-arrowup"></use></svg></h2>
   <ul id="subjects-submenu">
     
       
@@ -214,7 +225,7 @@
 </div>
 
 <div class="m-aside">
-  <h2 class="js-toggle-list" data-submenu="materials-submenu">Materials <svg><use xlink:href="#icon-arrowdown"></use></svg></h2>
+  <h2 class="js-toggle-list" data-submenu="materials-submenu">Materials <svg><use xlink:href="#icon-arrowup"></use></svg></h2>
   <ul id="materials-submenu">
     
       
@@ -314,7 +325,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-climate1.html">Test faq Climate</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -328,7 +339,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-climate2.html">Test faq Climate 2</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -345,7 +356,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-climate3.html">Test faq Climate 3</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -359,7 +370,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-gfw3.html">What updates are coming down the road for GFW?</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -373,7 +384,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-gfw1.html">Who can use global forest watch?</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -387,7 +398,7 @@
         
           <li>
             <h3><a href="/gfw-howto/faqs/faq-gfw2.html">Who is behind global forest watch?</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -421,7 +432,7 @@
         
           <li>
             <h3><a href="/gfw-howto/tutorial-videos/tutorial-analysis.html">Analysis</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -439,7 +450,7 @@
         
           <li>
             <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analize-a-shape-on-the-map.html">Analyze a Shape on the Map</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -455,7 +466,7 @@
         
           <li>
             <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analyze-an-uploaded-area.html">Analyze an uploaded area</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -475,7 +486,7 @@
         
           <li>
             <h3><a href="/gfw-howto/view-statistics/country-profiles-overview.html">Country Profiles Overview</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -533,7 +544,7 @@
         
           <li>
             <h3><a href="/gfw-howto/visualize-data/visualize-global-data.html">Visualize Global Data on GFW</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   
@@ -549,7 +560,7 @@
         
           <li>
             <h3><a href="/gfw-howto/visualize-data/visualize-country-data.html">Visualize country data</a></h3>
-            <div class="m-apps-tag">
+            <div class="m-apps-tag -inline">
               <ul>     
                 
                   

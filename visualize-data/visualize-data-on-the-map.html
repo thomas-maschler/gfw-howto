@@ -146,8 +146,19 @@
     <div class="l-wrapper">
       <h1 class="l-logo"><a href="/gfw-howto/">GFW How to portal</a></h1>
       <aside id="asideView" class="l-aside">
-        <div class="m-aside">
-  <h2 class="js-toggle-list" data-submenu="subjects-submenu">Subjects <svg><use xlink:href="#icon-arrowdown"></use></svg></h2>
+        <div class="m-aside">  
+  <div id="searchAsideView" class="m-search -small">
+    <div class="search-container">
+      <svg class="-active -search"><use xlink:href="#icon-search"></use></svg>
+      <svg id="search-close" class="-cross"><use xlink:href="#icon-cross"></use></svg>
+      <input id="search-input" type="text" placeholder="How do I analyze data?">
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+  </div>  
+</div>
+
+<div class="m-aside">
+  <h2 class="js-toggle-list" data-submenu="subjects-submenu">Subjects <svg><use xlink:href="#icon-arrowup"></use></svg></h2>
   <ul id="subjects-submenu">
     
       
@@ -214,7 +225,7 @@
 </div>
 
 <div class="m-aside">
-  <h2 class="js-toggle-list" data-submenu="materials-submenu">Materials <svg><use xlink:href="#icon-arrowdown"></use></svg></h2>
+  <h2 class="js-toggle-list" data-submenu="materials-submenu">Materials <svg><use xlink:href="#icon-arrowup"></use></svg></h2>
   <ul id="materials-submenu">
     
       
@@ -289,8 +300,6 @@
     <a href="/gfw-howto/">How to</a>
     <span>/</span>
     <a href="/gfw-howto/apps/visualize-data">visualize data</a>
-    <span>/</span>
-    <a href="/gfw-howto/themes/commodities">commodities</a>
     <span class="-desktop">/</span>
     <span class="-desktop">Visualize data on the map</span>
 
@@ -308,7 +317,7 @@
   <h2>
     Visualize data on the map
   </h2>
-  <h3></h3>
+  <!-- <h3></h3> -->
   <div class="m-apps-tag">
     <ul>
       
