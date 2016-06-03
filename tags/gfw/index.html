@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/gfw-howto/css/main.css">
 
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300' rel='stylesheet' type='text/css'>
-    <script id="loader-gfw" data-current=".shape-howto" src="http://www.globalforestwatch.org/gfw-assets"></script>
+    <script id="loader-gfw" data-current=".shape-howto" src="http://gfw-assets.s3.amazonaws.com/static/gfw-assets.nightly.js"></script>
     <!-- IOS, Android, favicons icons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/gfw-howto/assets/images/favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/gfw-howto/assets/images/favicons/apple-touch-icon-60x60.png">
@@ -33,8 +33,8 @@
     <script type="text/javascript">
 	window.gfw_howto = {
 		baseurl: '/gfw-howto',
-		tags: {"gfw":{"order":1,"title":"Gfw","description":"Empowering people everywhere to better manage and conserve forest landscapes through an interactive online forest monitoring system.","slug":"gfw"},"fires":{"order":2,"title":"Fires","description":"Global Forest Watch Fires (GFW Fires) is an online platform for monitoring and responding to forest and land fires in the ASEAN region using near real-time information.","slug":"fires"},"commodities":{"order":3,"title":"Commodities","description":"Global Forest Watch Commodities is an online platform that empowers companies to analyze the impact of key commodities on forests, using the latest and most powerful data available.","slug":"commodities"},"climate":{"order":4,"title":"Climate","description":"GFW Climate catalyzes action on climate change by providing timely, credible answers to questions about carbon emissions from tropical deforestation.","slug":"climate"},"odp":{"order":5,"title":"Open data portal","description":"Browse, learn more about, and download the data displayed on Global Forest Watch.","slug":"odp"}},
-		categories: {"visualize_data":{"order":1,"title":"Visualize data","description":"Some data are produced directly by WRI and our partners, such as FORMA alerts, Intact Forest Landscapes, and some forest use data.","slug":"visualize data","type":"subject"},"view_statistics":{"order":2,"title":"View statistics","description":"These courses are designed to provide an in-depth understanding of the ways can support a variety of professional.","slug":"view statistics","type":"subject"},"analyze_data_and_suscribe_to_alerts":{"order":3,"title":"Analyze data and suscribe to alerts","description":"Description analyze_data","slug":"analyze data and suscribe to alerts","type":"subject"},"submit_a_story":{"order":5,"title":"Submit a story","description":"Description submit_a_story","slug":"submit a story","type":"subject"},"download_data":{"order":6,"title":"Download data","description":"Description download_data","slug":"download data","type":"subject"},"gis":{"order":7,"title":"GIS","description":"Description gis","slug":"gis","type":"subject"},"text_and_screenshots":{"order":8,"title":"Text & Screenshots","description":"Description text_and_screenshots","slug":"text and screenshots","type":"material"},"tutorial_videos":{"order":9,"title":"Tutorial videos","description":"Description tutorial_videos","slug":"tutorial videos","type":"material"},"webinars":{"order":10,"title":"Webinars","description":"Description webinars","slug":"webinars","type":"material"},"faqs":{"order":11,"title":"FAQ’s","description":"Description faqs","slug":"faqs","type":"material"},"training_modules":{"order":12,"title":"Training modules","description":"Description training_modules","slug":"training modules","type":"material"},"blogs":{"order":13,"title":"Blogs","description":"Description blogs","slug":"blogs","type":"material"}}
+		tags: {"gfw":{"order":1,"title":"Gfw","description":"Empowering people everywhere to better manage and conserve forest landscapes through an interactive online forest monitoring system.","slug":"gfw","type":"app"},"fires":{"order":2,"title":"Fires","description":"Global Forest Watch Fires (GFW Fires) is an online platform for monitoring and responding to forest and land fires in the ASEAN region using near real-time information.","slug":"fires","type":"app"},"commodities":{"order":3,"title":"Commodities","description":"Global Forest Watch Commodities is an online platform that empowers companies to analyze the impact of key commodities on forests, using the latest and most powerful data available.","slug":"commodities","type":"app"},"climate":{"order":4,"title":"Climate","description":"GFW Climate catalyzes action on climate change by providing timely, credible answers to questions about carbon emissions from tropical deforestation.","slug":"climate","type":"app"},"odp":{"order":5,"title":"Open data portal","description":"Browse, learn more about, and download the data displayed on Global Forest Watch.","slug":"odp","type":"tool"},"map_builder":{"order":6,"title":"Map Builder","description":"Map Builder","slug":"map builder","type":"tool"},"small_grants_fund":{"order":7,"title":"Small Grants Fund","description":"Small Grants Fund","slug":"small grants fund","type":"tool"}},
+		categories: {"visualize_data":{"order":1,"title":"Visualize Data","description":"Some data are produced directly by WRI and our partners, such as FORMA alerts, Intact Forest Landscapes, and some forest use data.","slug":"visualize data","type":"subject"},"view_statistics":{"order":2,"title":"View Statistics","description":"These courses are designed to provide an in-depth understanding of the ways can support a variety of professional.","slug":"view statistics","type":"subject"},"analyze_data":{"order":3,"title":"Analyze Data","description":"Description analyze_data","slug":"analyze data","type":"subject"},"subscribe_to_alerts":{"order":4,"title":"Subscribe to Alerts","description":"Description subscribe_to_alerts","slug":"subscribe to alerts","type":"subject"},"submit_a_story":{"order":5,"title":"Submit a story","description":"Description submit_a_story","slug":"submit a story","type":"subject"},"download_data":{"order":6,"title":"Download data","description":"Description download_data","slug":"download data","type":"subject"},"gis":{"order":7,"title":"GIS","description":"Description gis","slug":"gis","type":"subject"},"create_custom_maps":{"order":8,"title":"Create Custom Maps","description":"Description create_custom_maps","slug":"create custom maps","type":"subject"},"tutorial_videos":{"order":9,"title":"Tutorial videos","description":"Description tutorial_videos","slug":"tutorial videos","type":"material"},"webinars":{"order":10,"title":"Webinars","description":"Description webinars","slug":"webinars","type":"material"},"faqs":{"order":11,"title":"FAQ’s","description":"Description faqs","slug":"faqs","type":"material"},"training_modules":{"order":12,"title":"Training modules","description":"Description training_modules","slug":"training modules","type":"material"},"blogs":{"order":13,"title":"Blogs","description":"Description blogs","slug":"blogs","type":"material"}}
 	}
 </script>
   </head>
@@ -164,7 +164,7 @@
       
       <li>
         <a class="-theme" id="aside-visualize-data" href="/gfw-howto/categories/visualize-data">
-          Visualize data
+          Visualize Data
         </a>
       </li>
       
@@ -172,15 +172,23 @@
       
       <li>
         <a class="-theme" id="aside-view-statistics" href="/gfw-howto/categories/view-statistics">
-          View statistics
+          View Statistics
         </a>
       </li>
       
     
       
       <li>
-        <a class="-theme" id="aside-analyze-data-and-suscribe-to-alerts" href="/gfw-howto/categories/analyze-data-and-suscribe-to-alerts">
-          Analyze data and suscribe to alerts
+        <a class="-theme" id="aside-analyze-data" href="/gfw-howto/categories/analyze-data">
+          Analyze Data
+        </a>
+      </li>
+      
+    
+      
+      <li>
+        <a class="-theme" id="aside-subscribe-to-alerts" href="/gfw-howto/categories/subscribe-to-alerts">
+          Subscribe to Alerts
         </a>
       </li>
       
@@ -209,6 +217,12 @@
       </li>
       
     
+      
+      <li>
+        <a class="-theme" id="aside-create-custom-maps" href="/gfw-howto/categories/create-custom-maps">
+          Create Custom Maps
+        </a>
+      </li>
       
     
       
@@ -241,11 +255,7 @@
       
     
       
-      <li>
-        <a class="-theme" id="aside-text-and-screenshots" href="/gfw-howto/categories/text-and-screenshots">
-          Text & Screenshots
-        </a>
-      </li>
+    
       
     
       
@@ -314,7 +324,7 @@
     
       <li class="-active -active ">
         <header>
-          <h2><a href="/gfw-howto/categories/visualize-data">Visualize data</a></h2>
+          <h2><a href="/gfw-howto/categories/visualize-data">Visualize Data</a></h2>
         </header>
         <div class="m-content-grid">
           <ul>
@@ -388,7 +398,11 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/visualize-data/visualize-global-data.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.png)"></a>
+                  <a href="/gfw-howto/visualize-data/visualize-global-data.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
                     <h3><a href="/gfw-howto/visualize-data/visualize-global-data.html">Visualize Global Data on GFW</a></h3>
                     <div class="m-apps-tag">
@@ -410,7 +424,11 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/visualize-data/visualize-country-data.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/visualize-country-data/thumbnail.png)"></a>
+                  <a href="/gfw-howto/visualize-data/visualize-country-data.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/visualize-country-data/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
                     <h3><a href="/gfw-howto/visualize-data/visualize-country-data.html">Visualize country data</a></h3>
                     <div class="m-apps-tag">
@@ -437,7 +455,7 @@
     
       <li class="-active -active ">
         <header>
-          <h2><a href="/gfw-howto/categories/view-statistics">View statistics</a></h2>
+          <h2><a href="/gfw-howto/categories/view-statistics">View Statistics</a></h2>
         </header>
         <div class="m-content-grid">
           <ul>
@@ -501,9 +519,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/view-statistics/view-country-rankings.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/view-country-rankings/thumbnail.png)"></a>
+                  <a href="/gfw-howto/view-statistics/statistics-view-country-rankings.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/view-country-rankings/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/view-statistics/view-country-rankings.html">View Country Rankings</a></h3>
+                    <h3><a href="/gfw-howto/view-statistics/statistics-view-country-rankings.html">View Country Rankings</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -521,9 +543,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/view-statistics/view-country-statistics.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/view-country-statistics/thumbnail.png)"></a>
+                  <a href="/gfw-howto/view-statistics/statistics-view-country-statistics.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/view-country-statistics/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/view-statistics/view-country-statistics.html">View Country Statistics</a></h3>
+                    <h3><a href="/gfw-howto/view-statistics/statistics-view-country-statistics.html">View Country Statistics</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -558,9 +584,9 @@
         </div>
       </li>
     
-      <li class="-active -active -active -active ">
+      <li class="-active -active -active ">
         <header>
-          <h2><a href="/gfw-howto/categories/analyze-data-and-suscribe-to-alerts">Analyze data and suscribe to alerts</a></h2>
+          <h2><a href="/gfw-howto/categories/analyze-data">Analyze Data</a></h2>
         </header>
         <div class="m-content-grid">
           <ul>
@@ -568,9 +594,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analize-and-subscribe-to-a-user-defined-area.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/analize-and-subscribe-to-a-user-defined-area/thumbnail.png)"></a>
+                  <a href="/gfw-howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/analize-and-subscribe-to-a-user-defined-area/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analize-and-subscribe-to-a-user-defined-area.html">Analize and Subscribe to a User-Defined Area</a></h3>
+                    <h3><a href="/gfw-howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html">Analize and Subscribe to a User-Defined Area</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -592,9 +622,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analyze-a-country-or-subnational-jurisdiction.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/analyze-a-country-or-subnational-jurisdiction/thumbnail.png)"></a>
+                  <a href="/gfw-howto/analyze-data/analyze-a-country-or-subnational-jurisdiction.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/analyze-a-country-or-subnational-jurisdiction/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analyze-a-country-or-subnational-jurisdiction.html">Analyze a Country or Subnational Jurisdiction</a></h3>
+                    <h3><a href="/gfw-howto/analyze-data/analyze-a-country-or-subnational-jurisdiction.html">Analyze a Country or Subnational Jurisdiction</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -612,9 +646,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analize-a-shape-on-the-map.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/analize-a-shape-on-the-map/thumbnail.png)"></a>
+                  <a href="/gfw-howto/analyze-data/analize-a-shape-on-the-map.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/analize-a-shape-on-the-map/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/analize-a-shape-on-the-map.html">Analyze a Shape on the Map</a></h3>
+                    <h3><a href="/gfw-howto/analyze-data/analize-a-shape-on-the-map.html">Analyze a Shape on the Map</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -651,12 +689,103 @@
           
             
           
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+          </ul>
+        </div>
+      </li>
+    
+      <li class="-active ">
+        <header>
+          <h2><a href="/gfw-howto/categories/subscribe-to-alerts">Subscribe to Alerts</a></h2>
+        </header>
+        <div class="m-content-grid">
+          <ul>
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/manage-subscriptions.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/manage-subscriptions/thumbnail.png)"></a>
+                  <a href="/gfw-howto/subscribe-to-alerts/subscribe-manage-subscriptions.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/manage-subscriptions/thumbnail.png)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/analyze-data-and-suscribe-to-alerts/manage-subscriptions.html">Manage Subscriptions</a></h3>
+                    <h3><a href="/gfw-howto/subscribe-to-alerts/subscribe-manage-subscriptions.html">Manage Subscriptions</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -777,9 +906,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/submit-a-story/submit-a-story.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.jpg)"></a>
+                  <a href="/gfw-howto/submit-a-story/submit-a-story-gfw.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/submit-a-story/submit-a-story.html">Submit a Story</a></h3>
+                    <h3><a href="/gfw-howto/submit-a-story/submit-a-story-gfw.html">Submit a Story</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -998,7 +1131,7 @@
     
       <li class="">
         <header>
-          <h2><a href="/gfw-howto/categories/text-and-screenshots">Text & Screenshots</a></h2>
+          <h2><a href="/gfw-howto/categories/create-custom-maps">Create Custom Maps</a></h2>
         </header>
         <div class="m-content-grid">
           <ul>
@@ -1097,9 +1230,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/tutorial-videos/tutorial-analyze-forest-change.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/tutorial-videos/tutorial-gfw-analyze-forest-change.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/2yTcTh6Rv8Q/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-analyze-forest-change.html">Analyze Forest Change</a></h3>
+                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-gfw-analyze-forest-change.html">Analyze Forest Change</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1144,14 +1281,16 @@
           
             
           
-            
-          
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/tutorial-videos/tutorial-overview.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/tutorial-videos/tutorial-gfw-overview.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/1tWmLmwNDWM/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-overview.html">Overview</a></h3>
+                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-gfw-overview.html">Overview</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1186,12 +1325,18 @@
           
             
           
+            
+          
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/tutorial-videos/tutorial-view-forest-statistics.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/q8wGUBLPvGU/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-view-forest-statistics.html">View Forest Statistics</a></h3>
+                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html">View Forest Statistics</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1209,9 +1354,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/tutorial-videos/tutorial-visualize-country-data.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/tutorial-videos/tutorial-gfw-visualize-country-data.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/04ULYfavAhk/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-visualize-country-data.html">Visualize Country Data</a></h3>
+                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-gfw-visualize-country-data.html">Visualize Country Data</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1229,9 +1378,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/tutorial-videos/tutorial-visualize-global-data.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/tutorial-videos/tutorial-gfw-visualize-global-data.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/YbXbNwiq89w/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-visualize-global-data.html">Visualize Global Data</a></h3>
+                    <h3><a href="/gfw-howto/tutorial-videos/tutorial-gfw-visualize-global-data.html">Visualize Global Data</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1314,9 +1467,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/webinars/webinar-platform-overview.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/webinars/webinar-gfw-platform-overview.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/VQXUnesPJT0/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/webinars/webinar-platform-overview.html">Platform Overview</a></h3>
+                    <h3><a href="/gfw-howto/webinars/webinar-gfw-platform-overview.html">Platform Overview</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
@@ -1334,7 +1491,11 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/webinars/webinar-small-grants-fund.html" class="img -video"  style="background-image: url(/gfw-howtovideo)"></a>
+                  <a href="/gfw-howto/webinars/webinar-small-grants-fund.html" class="img -video" 
+                     
+                      style="background-image: url(http://img.youtube.com/vi/RtcrS7dmhcI/0.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
                     <h3><a href="/gfw-howto/webinars/webinar-small-grants-fund.html">Small Grants Fund</a></h3>
                     <div class="m-apps-tag">
@@ -1342,6 +1503,9 @@
                         
                           
                           <li><a class="gfw" href="/gfw-howto/tags/gfw">Gfw</a></li>
+                        
+                          
+                          <li><a class="" href="/gfw-howto/tags/"></a></li>
                                                 
                       </ul>
                     </div>
@@ -1534,9 +1698,13 @@
                         
               <li class="m-content-item">
                 <div class="box">                
-                  <a href="/gfw-howto/training-modules/teacher-training-module.html" class="img "  style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.jpg)"></a>
+                  <a href="/gfw-howto/training-modules/training-module-01.html" class="img " 
+                     
+                      style="background-image: url(/gfw-howto/assets/images/gfw/visualize-global-data/thumbnail.jpg)" 
+                    >  
+                  </a>
                   <div class="content">
-                    <h3><a href="/gfw-howto/training-modules/teacher-training-module.html">Teacher Training Module</a></h3>
+                    <h3><a href="/gfw-howto/training-modules/training-module-01.html">Teacher Training Module</a></h3>
                     <div class="m-apps-tag">
                       <ul>
                         
