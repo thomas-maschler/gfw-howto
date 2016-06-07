@@ -99,7 +99,34 @@ button {
   .l-logo a {
     display: block;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    color: #FFF; }
+    .l-logo a .ribbon {
+      text-indent: 0px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 9px;
+      text-transform: uppercase;
+      -webkit-transform: translate(5px, 8px);
+              transform: translate(5px, 8px); }
+      .l-logo a .ribbon > span {
+        display: block;
+        position: relative;
+        z-index: 2;
+        background: #b6b6ba;
+        padding: 3px 5px 2px; }
+      .l-logo a .ribbon:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 100%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 0 0 5px;
+        border-color: transparent transparent transparent #9c9ca1; }
 
 .l-aside {
   display: none;
@@ -643,17 +670,27 @@ button {
 
 .m-filters {
   background: #f7f8f8;
-  padding: 30px 40px;
-  margin: 0 0 40px; }
+  padding: 20px 20px 10px; }
+  @media (min-width: 850px) {
+    .m-filters {
+      padding: 30px 40px 15px;
+      margin: 0 0 40px; } }
   .m-filters ul {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
     .m-filters ul li {
+      width: 100%;
       font-size: 16px;
-      margin: 0 0 0 25px; }
-      .m-filters ul li:first-child {
-        margin: 0; }
+      margin: 0 25px 15px 0; }
+      @media (min-width: 500px) {
+        .m-filters ul li {
+          width: auto; } }
+      .m-filters ul li:last-child {
+        margin-right: 0; }
 
 .m-checkbox input[type="checkbox"] {
   display: none; }
@@ -668,7 +705,8 @@ button {
   position: relative;
   padding-left: 25px;
   color: #555;
-  cursor: pointer; }
+  cursor: pointer;
+  white-space: nowrap; }
   .m-checkbox label span {
     position: absolute;
     display: block;
@@ -748,9 +786,9 @@ button {
   @media (min-width: 850px) {
     .m-faqs-content {
       padding: 10px 10px 40px; } }
-  .m-faqs-content > * {
+  .m-faqs-content .content > * {
     padding-top: 20px; }
-    .m-faqs-content > *:first-child {
+    .m-faqs-content .content > *:first-child {
       padding-top: 0; }
   .m-faqs-content a:not(.btn) {
     color: #97bd3d; }
@@ -1272,12 +1310,10 @@ button {
   @media (min-width: 850px) {
     .m-post {
       padding: 40px; } }
-  .m-post .content {
-    display: none; }
-    .m-post .content > * {
-      padding-top: 20px; }
-      .m-post .content > *:first-child {
-        padding-top: 0; }
+  .m-post .content > * {
+    padding-top: 20px; }
+    .m-post .content > *:first-child {
+      padding-top: 0; }
   .m-post a:not(.btn) {
     color: #97bd3d; }
     .m-post a:not(.btn):hover {

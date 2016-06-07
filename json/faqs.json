@@ -1,69 +1,333 @@
 [
   
     {
-      "title"    : "What updates are coming down the road for GFW?",
+      "title"    : "Why do forests matter?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-gfw3.html",
+      "url"      : "/gfw-howto/faqs/faq-why-do-forests-matter.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "3",
-      "content"  : "<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Human society and the global economy are inextricably linked to forests. More than 1 billion people depend on forests for their livelihood. Forest ecosystems also play a critical role in stabilizing the climate; providing food, water, wood products, and vital medicines; and supporting much of the world’s biodiversity.</p>\n\t<p>Despite recent efforts to combat harmful deforestation in some regions, forest ecosystems are still under threat. According to <a href=\"http://www.wri.org/our-work/project/forest-and-landscape-restoration\" target=\"_blank\">WRI research</a>, 30% of potential global forest cover has been cleared, while another 20% has been degraded. Most remaining forests have been fragmented, leaving only about 15% of original forest cover intact.</p>\n\t<p>Balancing the demand for natural resources with the need to preserve vital ecosystems requires robust data to help resource managers make good decisions. GFW can help by providing this information at a global scale.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Why do different data layers contradict each other or not overlap exactly?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-why-different-layers-contradict-or-not-overlap.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Different data sets measure different things and are derived using different methodologies. Such differences can lead to results that may manifest as contradictory layers on the GFW platform. In some cases, a lack of available high-quality data may cause a greater margin of error for certain data sets.</p>\n\n\t<ul>\n\t  <li><p><strong>Intact Forest Landscapes vs. tree cover:</strong> These data sets measure different things. “Tree cover” shows all 30 × 30 meter areas that meet a minimum threshold of tree cover (25% canopy cover), whereas “Intact Forest Landscapes” only shows forests that show no significant signs of human activity (see the <a href=\"http://data.globalforestwatch.org/\" target=\"_blank\">Open data Portal</a> for specifics).</p>\n\n\t  <p>Users may find instances where tree cover does not fall within the boundaries of intact forest landscapes. This is because the Intact Forest Landscapes layer is based on MODIS (250 meter resolution satellite imagery), which is known to overestimate low tree cover densities, whereas the tree cover layer is based on Landsat (30 meter resolution satellite imagery). As a result, the tree cover layer may not show tree cover in an area that is covered by an intact forest landscape polygon.</p></li>\n\n\t  <li><p><strong>Google base map vs. boundary of country data sets:</strong> In some cases, country data sets do not line up with the Google base map and data may appear outside the country boundary. Not all country data sets are derived using the same base map and therefore there may be a slight degree of incongruence.</p></li>\n\t</ul>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Whom do I contact with questions about the site?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-whom-contact-with-questions.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Please email general inquiries to <a href=\"mailto:gfw@wri.org\">gfw@wri.org</a>, or visit the <a href=\"/about/contact-us\" target=\"_blank\">Contact Us page</a> for other ways to get in touch.</p>\n\n\t<p>For media inquiries, please contact James Anderson, Communications Officer, World Resources Institute (<a href=\"mailto:janderson@wri.org\">janderson@wri.org</a>, +1 (202) 729-7608).</p>\n\n\t<p>Or, view a <a href=\"http://www.wri.org/our-work/project/global-forest-watch\" target=\"_blank\">list of staff</a> who work on Global Forest Watch. </p>\n</div>\n"
     } ,
   
     {
       "title"    : "Who is behind global forest watch?",
       "category" : "faqs",
-      "tags"     : "gfw, fires, commodities, climate",
-      "url"      : "/gfw-howto/faqs/faq-gfw2.html",
+      "tags"     : "gfw, climate",
+      "url"      : "/gfw-howto/faqs/faq-who-is-behind-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "2",
-      "content"  : "<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>GFW is supported by a diverse range of partners that contribute data, technical capabilities, funding, and expertise. The partnership is convened by the World Resources Institute. Visit the <a href=\"/about\">GFW About page</a> for a full list of partners.</p>\n\t<p>Interested in joining the GFW partnership? Email us <a href=\"mailto:gfw@wri.org\">here</a>.</p>\n</div>\n"
     } ,
   
     {
       "title"    : "Who can use global forest watch?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-gfw1.html",
+      "url"      : "/gfw-howto/faqs/faq-who-can-use-global-forest-watch.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "1",
-      "content"  : "<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p>\n\t<ul>\n\t  <li><strong>Governments</strong> can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>\n\t  <li><strong>Companies</strong> •  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at <a href=\"http://www.commodities.globalforestwatch.org\" target=\"_blank\">GFW Commodities</a>.</li>\n\t  <li><strong>NGOs &amp; civil society</strong> can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>\n\t  <li><strong>Indigenous communities</strong> can monitor their territories and raise an alarm when their customary forests are threatened.</li>\n\t  <li><strong>Media</strong> can gather evidence, data, and graphics for reporting.</li>\n\t  <li><strong>Researchers</strong> can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>\n\t  <li><strong>Concerned citizens everywhere</strong> can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li>\n\t</ul>\n\t<p>GFW also brings together a dynamic community of partners with expertise in forest science, conservation, supply chain management, web development, citizen science, community outreach, and in-depth knowledge of priority forests around the world.</p>\n</div>\n"
     } ,
   
     {
-      "title"    : "Test faq Climate 3",
+      "title"    : "Where do the data come from?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-where-do-data-come-from.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The data on GFW come from various sources. Most of the data are in the public domain and have been developed by governments, NGOs, research institutions, or companies. Note that the data come in different formats and vary in their accuracy, timeliness, and geographical extent. See GFW’s <a href=\"http://gfw-nav.herokuapp.com/about/data_policy\">Data policy</a> for more details.</p>\n\n\t<p>Some data are produced directly by WRI and our partners, such as FORMA alerts, Intact Forest Landscapes, and some forest use data. For more details, see the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "What updates are coming down the road for GFW?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>You asked, and we listened. Here is how we are addressing user feedback to improve GFW.</p>\n\t<ul>\n\t  <li>Additional “Forest Use” and “People” data sets, including concession boundaries, community land claims, and tenure rights</li>\n\t  <li>Additional local data, including projects, resources, and important places to watch</li>\n\t  <li>A plantations map for tropical regions</li>\n\t  <li>An expanded analysis and subscription tool that enables on-the-fly analysis of additional data layers and subscription to stories and other forest change data layers</li>\n\t  <li>Updated country profiles that include additional climate, carbon, and forest data</li>\n\t  <li>Better language translation and low-bandwith capabilities</li>\n\t  <li>Updated carbon density maps and estimates of emissions for forest loss and land-use change</li>\n\t  <li>A citizen-science platform for comparing and classifying satellite imagery of forests as well as an additional crowd-sourcing tool allowing direct upload of georeferenced information and photos from the field</li>\n\t  <li>And much more...</li>\n\t</ul>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "What does it mean that Global Forest Watch is in “beta”?",
+      "category" : "faqs",
+      "tags"     : "gfw, climate",
+      "url"      : "/gfw-howto/faqs/faq-what-means-gfw-is-in-beta.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>While GFW is fully functional, we are still collecting user feedback to improve website features and functionality.</p>\n\n\t<p>Establishing an effective web-based tool requires an iterative process of feedback and refinement. This is why your feedback is important to us. Please submit your feedback on the <a href=\"/getinvolved/provide-feedback\" target=\"_blank\">Feedback page</a> to help us improve the site.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "What kinds of data are available on Global Forest Watch?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-what-kinds-of-data-in-gfw.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>GFW seeks to bring together the most current, reliable, and robust data to monitor forest change around the world. GFW incorporates and integrates a wide range of data sets that can be overlaid and compared, including:</p>\n\n\t<ul>\n\t\t<li>Forest change data, such as global tree cover loss and gain data from the University of Maryland/Google, near real-time FORMA alerts for the humid tropics, SAD alerts for the Brazilian Amazon from Imazon, quarterly vegetation change data from NASA, and others</li>\n\t\t<li>Forest cover data, including global tree cover data, intact forest landscapes, and pantropical carbon density</li>\n\t\t<li>Forest fire data, from NASA’s Modis satellite (see <a href=\"http://www.fires.globalforestwatch.org\" target=\"_blank\">GFW Fires</a>)</li>\n\t\t<li>Forest use data, which includes contextual information, such as concession areas for natural resource extraction or agricultural production</li>\n\t\t<li>Conservation data, such as global boundaries for protected areas and biodiversity hotspots</li>\n\t\t<li>Qualitative and anecdotal data, such as user-submitted (submit one <a href=\"/stories/new\">here</a>)</li>\n\t\t<li>People data, including community land boundaries and land tenure rights (coming soon)</li>\n\t</ul>\n\n\t<p>By monitoring changes tracked by these data sets over time, users can better understand drivers and patterns of forest loss worldwide.</p>\n\t<p>See our <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a> for more detail. To contribute or suggest data, please <a href=\"mailto:gfw@wri.com\">email</a> us.</p>\n\n\t<p>For more information about how Global Forest Watch acquires and incorporates new data to the GFW system, see our <a href=\"http://gfw.blog.s3.amazonaws.com/Data%20Playbook/GFW%20Data%20Playbook%20v3.pdf\" target=\"_blank\">Data Playbook</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "What is tree cover canopy (TCC) density and what layers allow me to adjust it?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-what-is-tree-cover-canopy-and-layers-to-adjust.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Not all forests have the same footprint. Some forests are dense, like the tropical Amazon, with canopies that blanket almost every inch of ground for miles. Others forests are sparse, such as the savannah woodlands of North Africa where the canopies do not close or interlace. There are many shades in between. As a result, there is no global consensus on how much tree cover is needed to constitute a forest and it is important to be able to adjust the tree cover canopy density according to different user or country definitions of “forest.”</p>\n\n\t<p>The minimum tree cover canopy density can only be adjusted within the UMD/Google tree cover and loss data sets. When these layers are activated in the map, you can adjust the minimum percentage of canopy density through the settings icon. This adjustment can also be made in other areas of the website where UMD/Google forest statistics are used, such as within the country profiles and rankings.</p>\n\n\t<p>What do these percentages mean? Technically speaking, tree cover canopy density represents the estimated percent of a pixel that was covered by tree canopy in the year 2000, as determined from the analysis of satellite imagery. For the tree cover loss data, tree cover canopy density therefore corresponds to the density of tree cover before loss occurred. For example, if you select 25% as the minimum tree cover canopy density, you will only see tree cover loss pixels for which the original tree cover density was greater than 25%.</p>\n\n\t<p>Note: Adjustments to the minimum TCC density only affect UMD tree cover loss and extent data layers. This feature does not pertain to UMD tree cover gain or to other GFW data layers or statistics. UMD tree cover gain is displayed with a set minimum TCC density greater than 50%. The minimum TCC density cannot be changed independently for loss and extent. A change made to one data layer will immediately take effect in the other.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "I am familiar with a particular geographic area and believe your data set is inaccurate. What can I do?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-i-am-familiar-with-area-data-set-is-inaccurate.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>First, please make sure you understand the differences in the data layers and their respective methodologies.</p>\n\n\t<p>If you still believe our data are inaccurate, please <a href=\"mailto:gfw@wri.com\">contact us</a> with a brief description of the location, data set in question, and observed issue. You can also &lt;%= link_to 'submit a story', new_story_path %&gt;, with photos or other details. Our team will flag the area for further investigation.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "I am experiencing difficulties with the site. What should I do?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-i-am-experiencing-difficulties-with-the-site.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Please first ensure that you are using an appropriate web browser. We recommend using a recent version of <a href=\"https://www.google.com/intl/en/chrome/browser/\" target=\"_blank\">Google Chrome</a>, <a href=\"http://www.mozilla.org/en-US/firefox/new/\" target=\"_blank\">Mozilla Firefox</a>, <a href=\"http://www.apple.com/safari/\" target=\"_blank\">Apple Safari</a>, or <a href=\"http://windows.microsoft.com/en-us/internet-explorer/download-ie\" target=\"_blank\">Internet Explorer</a>. We also recommend that you install <a href=\"http://get.adobe.com/flashplayer/\" target=\"_blank\">Adobe Flash Player</a> before using the GFW website.</p>\n\n\t<p>If errors persist when using a recommended browser, please let us know through the <a href=\"http://www.globalforestwatch.org/?show_feedback=true\">feedback form</a>, contact us at <a href=\"mailto:gfw@wri.org\">gfw@wri.org</a>, or <a href=\"https://github.com/vizzuality/gfw/issues?state=open\" target=\"_blank\">submit an issue on GitHub</a>.</p>\n\n\t<p>GFW is still in “beta,” which means that there may still be some minor issues and errors within the site. We are usually able to fix them in a timely manner. It is helpful if you send us a link to the page or data set you had open when you encountered the problem, and if you tell us which browser you are using. You can also view the <a href=\"http://stats.pingdom.com/me0q72oj01nt\" target=\"_blank\">Global Forest Watch System Status</a> page to see if there are any portions of the website that are not working properly. If you want to give us general feedback or suggestions about new data or functionality, please visit the <a href=\"/getinvolved/provide-feedback\" target=\"_blank\">Feedback page</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How was the Global Forest Watch website built?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-how-was-gfw-website-built.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The Global Forest Watch website is an open source platform designed and built by <a href=\"http://www.vizzuality.com/\" target=\"_blank\">Vizzuality</a>, in partnership with the <a href=\"http://www.wri.org/\" target=\"_blank\">World Resources Institute</a>. Data are hosted on <a href=\"https://cartodb.com/\" target=\"_blank\">CartoDB</a>, <a href=\"https://support.google.com/fusiontables/answer/2571232?hl=en\" target=\"_blank\">Google Fusion Tables</a>, and <a href=\"https://earthengine.google.org/#intro\" target=\"_blank\">Google Earth Engine</a>. Map visualizations are powered using CartoDB. The platform is designed for <a href=\"http://rubyonrails.org/\" target=\"_blank\">Ruby on Rails</a> and uses the Global Forest Watch API for data analysis, download, and subscription features. All code is available through our <a href=\"https://github.com/Vizzuality/gfw\" target=\"_blank\">website repository</a> and <a href=\"https://github.com/wri/gfw-api\" target=\"_blank\">API repository</a> on GitHub.</p>\n\t<p>GFW applications are built by outside partners. Please visit the application website for more information about their development, design and data policy.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How does GFW define key terms?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-how-does-gfw-define-key-terms.mdown",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p><strong>Forest</strong></p>\n\t<p>Various definitions exist for the term “forest,” and GFW does not aim to provide a consensus definition. Data sets hosted on GFW may define “forest” differently or pertain to different types of forest (primary, secondary, tree plantations, etc.). Through information found on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>, we aim to be transparent about the assumptions and definitions feeding into each data set.</p>\n\t<p>In our general writing, including the GFW blog, “forest” refers to a landscape with a high density of trees and value for biodiversity, carbon storage, and human use..</p>\n\n\t<p><strong>Deforestation</strong></p>\n\t<p>How one defines “deforestation” depends on how one defines “forest.” As noted above, various definitions of forest exist and GFW does not aim to provide a consensus view. Correspondingly, GFW does not provide a single definition for “deforestation.”</p>\n\t<p>In general writing, GFW uses “deforestation” to refer to the removal of a significant number of trees from a landscape, typically in the context of human actions rather than natural events such as fires or disease. We generally refer to “gross deforestation” (the total amount of forest loss), rather than “net deforestation” (the total amount of forest loss minus the amount of forest gain), or clearly specify otherwise.</p>\n\t<p>For more information on each data set, please visit our <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n\n\t<p><strong>Tree cover</strong></p>\n\t<p>Where found on the GFW website, “tree cover” refers to the biophysical presence of trees, which may be part of natural forests or tree plantations. The inclusion of all types of tree plantations in the “tree cover” definition notably distinguishes the term from some definitions of “forest.” Accordingly, “tree cover” and “forest” should not be used interchangeably. Different data sets further define “tree cover” with added parameters (see the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a> for details and distinctions).</p>\n\n\t<p><strong>Tree cover loss</strong></p>\n\t<p>“Tree cover loss” refers to the removal of trees, which may be within natural forests or tree plantations. Accordingly, “tree cover loss” does not necessarily equate to “deforestation” and can result from a variety of factors, including mechanical harvesting, fire, disease, or storm damage. Different data sets have additional parameters that must be met for the indication or alert of loss to appear on the GFW map (see examples below).</p>\n\n\t<ul>\n\t<li><strong>University of Maryland (UMD)/Google tree cover loss:</strong> Loss is defined as “stand replacement disturbance,” or the complete removal or mortality of tree cover canopy (of any canopy cover density) at the Landsat pixel scale (30 × 30 meters).</li>\n\n\t<li><strong>FORMA alerts:</strong> Loss alerts are triggered by areas exhibiting a steep, persistent drop in vegetation intensity, indicating a high probability (equal to or greater than 50%) of the occurrence of tree cover loss. It is important to note that this alert-based system is not the same as an area measurement of tree cover loss.</li>\n\t</ul>\n</div>"
+    } ,
+  
+    {
+      "title"    : "How do I cite Global Forest Watch as a data source?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-how-cite-gfw-as-a-data-source.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Each data set has an individual citation, which can be found on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>. If you are referencing the source website or publication for a data set, please use the “Citation.”  If you are referencing the source website or publication for a data set, please use the “Citation.” If you are referencing a figure or number generated by GFW or data downloaded from the GFW website, please use the “Suggested citation for data as displayed on GFW.” For data that are displayed in their original form or when users are directed to the original source to download data, a suggested citation is not listed.</p>\n\n\t<p>To cite the website or initiative overall, please use:</p>\n\t<p>Global Forest Watch. 2014. World Resources Institute. Accessed on (date). <a href=\"http://www.globalforestwatch.org\">www.globalforestwatch.org</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How accurate are the data displayed on Global Forest Watch?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-how-accurate-are-the-data-displayed-on-gfw.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The accuracy of the data displayed on GFW is variable. Methodologies and cautions for specific data sets are available on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n\n\t<p>GFW strives to include only the most accurate data whenever possible and to make the user aware of the risk of inaccuracies in the data. GFW is not responsible for data from other sources. See more about GFW’s approach to data in our <a href=\"http://gfw-nav.herokuapp.com/about/data_policy\">Data policy</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Do you have these data sets available for every country?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-do-you-have-data-sets-available-for-every-country.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>GFW aims to provide data with global coverage, but this isn’t always possible. The geographic coverage of each data set is described on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n\n\t<p>Data may have limited coverage for various reasons. GFW works to incorporate new data as quickly as possible as they are made available. If you know of a publicly available data set that we do not have, please <a href=\"mailto:gfw@wri.com\">contact us</a> to let us know.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Do GFW data reveal the quality of forest management (e.g., sustainable versus unsustainable)? What about forest change from natural versus human causes?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-do-gfw-data-reveal-the-quality-of-forest-management.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The forest change data displayed on GFW (such as UMD/Google tree cover loss and FORMA alerts) do not necessarily distinguish the quality of the forest management (e.g., sustainable or unsustainable), the legality (illegal or legal), or the cause (e.g., natural or human) of forest change events. For example, the forest change data available on GFW will include forest change from tree harvesting, fires, pests, and forest clearing for agriculture.</p>\n\n\t<p>However, contextual data available on GFW can help users draw more informed conclusions about the nature and drivers of forest change events. For example, users can overlay forest change data over the protected areas layer to flag areas of potential concern. Or users can pull up satellite imagery base maps to look for “burnscars,” “blowdowns,” logging roads, and so on.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Can I compare statistics for tree cover, loss and gain to calculate “net” tree cover and tree cover loss?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-compare-statistics-for-tree-cover-loss-and-gain-to-calculate-the-cover.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Infographics on the <a href=\"/countries\" target=\"_blank\">Country Profiles and Rankings</a> and analysis on the <a href=\"/map\" target=\"_blank\">interactive map</a> allow you to view statistics for tree cover, loss, and gain, calculated using data sets from the University of Maryland/Google. Due to variation in research methodology and date of content, tree cover, loss, and gain data sets cannot be compared accurately against each other. Accordingly, “net” loss cannot be calculated by subtracting figures for tree cover gain from tree cover loss, and current (or post-2000) tree cover cannot be determined by subtracting figures for annual tree cover loss from year 2000 tree cover. For more information on these data sets, please visit the <a href=\"http://data.globalforestwatch.org/\" target=\"_blank\">Open Data Portal</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Why do you show emissions only from primary forests for Indonesia and DRC in the pantropical overview?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-climate3.html",
+      "url"      : "/gfw-howto/faqs/faq-cl-why-show-emissions-only-primary-forests-for-indonesia-and-drc.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "3",
-      "content"  : "<p>GFW aims3 to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>An important caveat regarding the Hansen et al. (2013) tree cover loss dataset is that the definition of gross tree cover loss includes rotational clear-felling of management units within tree plantations and clearing of forest regrowth in shifting cultivation cycles, along with conversion of natural forests. Data shown in the pantropical overview are based on emission estimates from Zarin et al. (in press), which took steps to address this issue using specific modifications of the Hansen et al. (2013) data for three countries that are substantial contributors to total carbon emissions from gross tropical deforestation -- Indonesia, DRC, and Malaysia. For Indonesia, primary forests in 2000 as mapped by Margono et al. and available on GFW closely match a map of forest extent from the Indonesian Ministry of Environment and Forestry data for the same year. For DRC, the focus on primary forest only aims to exclude secondary forest clearing associated with stable shifting cultivation cycles, while while still capturing emissions from expansion of shifting cultivation into primary forest areas. For Malaysia, emissions from gross deforestation is approximated by filtering out tree cover loss occurring within plantation areas as mapped by Transparent World and available on GFW. See Zarin et al. for more details. Additional data beyond those shown on the pantropical overview page for these three countries are shown on their country profile pages.</p>\n</div>\n"
     } ,
   
     {
-      "title"    : "Test faq Climate 2",
-      "category" : "faqs",
-      "tags"     : "climate, fires",
-      "url"      : "/gfw-howto/faqs/faq-climate2.html",
-      "date"     : "2001-01-01 00:00:00 +0100",
-      "app"      : "",
-      "order"    : "2",
-      "content"  : "<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
-    } ,
-  
-    {
-      "title"    : "Test faq Climate",
+      "title"    : "Why isn&#39;t the biomass density map representative of a later year?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-climate1.html",
+      "url"      : "/gfw-howto/faqs/faq-cl-why-is-not-biomass-density-map-representative-of-a-later-year.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "1",
-      "content"  : "<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p><ul>  <li>Governments can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>  <li>Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at GFW Commodities.</li>  <li>NGOs &amp; civil society can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>  <li>Indigenous communities can monitor their territories and raise an alarm when their customary forests are threatened.</li>  <li>Media can gather evidence, data, and graphics for reporting.</li>  <li>Researchers can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>  <li>Concerned citizens everywhere can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li></ul>"
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Our approach to estimating emissions from deforestation combines biomass density estimates with annual tree cover loss estimates from 2001 to 2014, both derived from spatially-explicit remote sensing imagery. This allowed us to co-locate a biomass density value with a given loss pixel. If the biomass density map were developed to be representative of a later year, e.g. 2010, then biomass density values corresponding to areas of loss in earlier years (e.g., 2001-2010) would be reflective of the cleared land after tree cover removal, rather than prior to clearing.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Why don&#39;t my plot data match pixel values in the aboveground live woody biomass density map?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-why-dont-my-plt-data-match-pixle-values.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Almost all estimates of aboveground live woody biomass density are based on the\n\tcollection of reliable data within inventory plots on the ground, where the diameter at breast height (DBH) of individual trees is measured by field technicians at a certain point in time. These measurements are converted to tree biomass density estimates using allometric equations.</p>\n\t<p>But because it is impractical to measure all points all the time, various methods are used to approximate forest biomass across a landscape based on a smaller sample of measurement points. Any of these approximation methods, including both statistical sampling approaches and spatial modeling approaches, are meant to provide forest biomass density estimates for an area of interest beyond what can be measured at a single point.</p>\n\t<p>The aboveground live woody biomass density map on GFW Climate, developed by Woods Hole Research Center, reflects output from a spatial model calibrated with ground sampling points and optimized to reflect biomass distribution across all tropical forests. Each pixel value in the map may therefore not perfectly reflect biomass density measurements collected at a single point. GFW Climate provides a pixel-level uncertainty map along with the biomass density map.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Why doesn&#39;t this site include restoration?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-why-does-not-include-restoration.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Forest regrowth often occurs slowly over many years, and requires continued monitoring using high resolution satellite imagery for an accurate depiction of gains in tree cover. Although the original University of Maryland and Google data set includes a global tree cover gain layer for 2000-2012, the data set cannot distinguish between natural regeneration and the establishment of plantations, such as those for timber harvesting and agricultural cultivation (oil palm, rubber, etc.). In the absence of a consistent and accurate global forest regrowth data set, GFW Climate has chosen to focus instead on emissions due to forest loss, for which up-to-date global and national data exist.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Why does GFW Climate focus only on the tropics?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-why-cliamte-focus-on-tropics.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Monitoring greenhouse gas fluxes from forests is complex. When building GFW Climate, it was necessary to start somewhere. Through our outreach and interactions with stakeholders and other interested parties, it was clear that deforestation in the tropics was where there was the highest interest and need for an independent monitoring tool.. As we move forward, it is our intention to move beyond the tropics and beyond only deforestation.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "What&#39;s the difference between biomass and carbon?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-what-is-the-difference-between-biomass-and-carbon.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The carbon content of woody matter (stem, branches and roots) and leaves is approximately 50% of their total weight, or biomass. Multiplying the total biomass by the proportion of that biomass \n\twhich is carbon gets us to an estimate of the total amount of carbon stored in a tree.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How are calculations done in a GIS to compute country level totals?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-how-are-calculations-don-in-a-gis.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>All code and detailed workflows related to GIS calculations can be found on GitHub at <a href=\"https://github.com/wri/gfw_climate\">GFW Climate Github</a>.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How accurate are the emissions estimates?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-how-accurate-are-the-emissions-estimates.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The accuracy of emissions estimates varies, due to estimation errors inherent in the input data. Along with the aboveground live woody biomass density values, users can view an error map at the same spatial resolution, which provides the level of uncertainty for this data layer. It is recommended that both aboveground carbon density and uncertainty values be used together for carbon assessments and verification. The map will provide accurate estimates of aboveground carbon stocks and aboveground carbon density when aggregated to large areas (5,000 to 10,000 ha) for project and regional level assessments. The biomass density value of a single pixel may have large uncertainty when compared with small plots for verification. In addition, there may be year-to-year uncertainties in the loss data. Hansen et al (2013) are 75 percent confident that the loss occurred within the stated year, and 97 percent confident that it occurred within a period from the year before to the year after the stated year.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "How does GFW Climate relate to country-level measurement, reporting and verification (MRV)?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-how-gfw-climate-relate-to-country-level-measurement.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>The establishment of robust MRV systems for REDD+ is a key component in the successful implementation of carbon emissions reduction strategies. Global Forest Watch Climate is not intended to replace country-led MRV efforts, which should include much more detailed information on the greenhouse gas impacts of planned or implemented policies and measures. However, GFW Climate can be used as an independent tool against which forest reference emissions levels and other nationally-reported estimates can be assessed.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Can I use this website for project-level monitoring and assessment for REDD+?",
+      "category" : "faqs",
+      "tags"     : "climate",
+      "url"      : "/gfw-howto/faqs/faq-cl-can-use-website-for-project-level-monitoring.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>While the tree cover loss and carbon emission estimates on Global Forest Watch Climate are spatially and temporally explicit, we do not advise their use for project-level assessment for REDD+, due to the scale of the carbon density data, in addition to year-to-year uncertainties in the tree cover loss data. For example, the aboveground live woody biomass density value of a single pixel may have large uncertainty when compared with small plots for verification. Therefore the forest changes visualized on the GFW Climate map should be considered indicative at best, and may require further verification from field assessment or more high-resolution imagery.</p>\n</div>\n"
+    } ,
+  
+    {
+      "title"    : "Does GFW distinguish tree plantations from natural forests?",
+      "category" : "faqs",
+      "tags"     : "gfw",
+      "url"      : "/gfw-howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html",
+      "date"     : "2001-01-01 00:00:00 +0100",
+      "app"      : "",
+      "order"    : "",
+      "content"  : "<div class=\"content\">\n\t<p>Tree plantations are not distinguished from natural forests in the case of several key data sets hosted on GFW (including 2000 tree cover, UMD/Google tree cover loss and gain, FORMA alerts, and QUICC alerts). Tree cover loss may include cases of tree plantations being harvested, and tree cover gain may include cases where natural forests are replaced with tree plantations.</p>\n\n\t<p>It is nonetheless important to <a href=\"http://www.sciencemag.org/content/342/6160/805.full\" target=\"_blank\">distinguish</a> between natural forests and tree plantations when considering conservation, carbon storage, and value to local communities. Natural forests have higher biodiversity, store more carbon, and are more often associated with the traditional livelihoods of forest-dependent communities. Accordingly, GFW and partners are developing a “plantation forests map” for the tropical regions to determine the location of plantations on a near-global scale. The map, developed through remote sensing methods, will be coming soon to GFW.</p>\n</div>\n"
     } 
   
 ]
