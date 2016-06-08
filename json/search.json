@@ -4,7 +4,7 @@
       "title"    : "Small Grants Fund",
       "category" : "webinars",
       "tags"     : "gfw, small_grants_fund",
-      "url"      : "/gfw-howto/webinars/webinar-small-grants-fund.html",
+      "url"      : "/howto/webinars/webinar-small-grants-fund.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -13,7 +13,7 @@
       "title"    : "Platform Overview",
       "category" : "webinars",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/webinars/webinar-gfw-platform-overview.html",
+      "url"      : "/howto/webinars/webinar-gfw-platform-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -22,7 +22,7 @@
       "title"    : "Visualize Global Data on GFW",
       "category" : "visualize data",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/visualize-data/visualize-global-data.html",
+      "url"      : "/howto/visualize-data/visualize-global-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -31,7 +31,7 @@
       "title"    : "Visualize fire data on the map",
       "category" : "visualize data",
       "tags"     : "fires",
-      "url"      : "/gfw-howto/visualize-data/visualize-fire-data-on-the-map.html",
+      "url"      : "/howto/visualize-data/visualize-fire-data-on-the-map.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -40,7 +40,7 @@
       "title"    : "Find data in the open data portal",
       "category" : "visualize data",
       "tags"     : "odp",
-      "url"      : "/gfw-howto/visualize-data/visualize-find-data.html",
+      "url"      : "/howto/visualize-data/visualize-find-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -49,7 +49,7 @@
       "title"    : "Explore data in the open data portal",
       "category" : "visualize data",
       "tags"     : "odp",
-      "url"      : "/gfw-howto/visualize-data/visualize-explore-data.html",
+      "url"      : "/howto/visualize-data/visualize-explore-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -58,7 +58,7 @@
       "title"    : "Download raster data in the open data portal",
       "category" : "visualize data",
       "tags"     : "odp",
-      "url"      : "/gfw-howto/visualize-data/visualize-download-raster-data.html",
+      "url"      : "/howto/visualize-data/visualize-download-raster-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -67,7 +67,7 @@
       "title"    : "Download data in the open data portal",
       "category" : "visualize data",
       "tags"     : "odp",
-      "url"      : "/gfw-howto/visualize-data/visualize-download-data.html",
+      "url"      : "/howto/visualize-data/visualize-download-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -76,7 +76,7 @@
       "title"    : "Visualize data on the map",
       "category" : "visualize data",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/visualize-data/visualize-data-on-the-map.html",
+      "url"      : "/howto/visualize-data/visualize-data-on-the-map.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -85,7 +85,7 @@
       "title"    : "Visualize country data",
       "category" : "visualize data",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/visualize-data/visualize-country-data.html",
+      "url"      : "/howto/visualize-data/visualize-country-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -94,7 +94,7 @@
       "title"    : "Visualize carbon data on the map",
       "category" : "visualize data",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/visualize-data/visualize-carbon-data-on-the-map.html",
+      "url"      : "/howto/visualize-data/visualize-carbon-data-on-the-map.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -103,7 +103,7 @@
       "title"    : "ODP Overview",
       "category" : "tutorial videos",
       "tags"     : "odp",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-odp-overview.html",
+      "url"      : "/howto/tutorial-videos/tutorial-odp-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -112,7 +112,7 @@
       "title"    : "Visualize Global Data",
       "category" : "tutorial videos",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-gfw-visualize-global-data.html",
+      "url"      : "/howto/tutorial-videos/tutorial-gfw-visualize-global-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -121,7 +121,7 @@
       "title"    : "Visualize Country Data",
       "category" : "tutorial videos",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-gfw-visualize-country-data.html",
+      "url"      : "/howto/tutorial-videos/tutorial-gfw-visualize-country-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -130,7 +130,7 @@
       "title"    : "View Forest Statistics",
       "category" : "tutorial videos",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html",
+      "url"      : "/howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -139,7 +139,7 @@
       "title"    : "Overview",
       "category" : "tutorial videos",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-gfw-overview.html",
+      "url"      : "/howto/tutorial-videos/tutorial-gfw-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -148,7 +148,7 @@
       "title"    : "Analyze Forest Change",
       "category" : "tutorial videos",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-gfw-analyze-forest-change.html",
+      "url"      : "/howto/tutorial-videos/tutorial-gfw-analyze-forest-change.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -157,7 +157,7 @@
       "title"    : "Country Profile Pages",
       "category" : "tutorial videos",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-country-profile-pages.html",
+      "url"      : "/howto/tutorial-videos/tutorial-country-profile-pages.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -166,7 +166,7 @@
       "title"    : "Overview",
       "category" : "tutorial videos",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-commodities-overview.html",
+      "url"      : "/howto/tutorial-videos/tutorial-commodities-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -175,7 +175,7 @@
       "title"    : "Data",
       "category" : "tutorial videos",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-commodities-data.html",
+      "url"      : "/howto/tutorial-videos/tutorial-commodities-data.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -184,7 +184,7 @@
       "title"    : "Analysis",
       "category" : "tutorial videos",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-commodities-analysis.html",
+      "url"      : "/howto/tutorial-videos/tutorial-commodities-analysis.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -193,7 +193,7 @@
       "title"    : "Pantropical Overview",
       "category" : "tutorial videos",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-climate-pantropical-overview.html",
+      "url"      : "/howto/tutorial-videos/tutorial-climate-pantropical-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -202,7 +202,7 @@
       "title"    : "Country Comparison Overview",
       "category" : "tutorial videos",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/tutorial-videos/tutorial-climate-country-comparison-overview.html",
+      "url"      : "/howto/tutorial-videos/tutorial-climate-country-comparison-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -211,7 +211,7 @@
       "title"    : "Teacher Training Module",
       "category" : "training modules",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/training-modules/training-module-01.html",
+      "url"      : "/howto/training-modules/training-module-01.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -220,7 +220,7 @@
       "title"    : "Subscribe to fire alerts",
       "category" : "subscribe to alerts",
       "tags"     : "fires",
-      "url"      : "/gfw-howto/subscribe-to-alerts/subscribe-to-fire-alerts.html",
+      "url"      : "/howto/subscribe-to-alerts/subscribe-to-fire-alerts.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -229,7 +229,7 @@
       "title"    : "Manage Subscriptions",
       "category" : "subscribe to alerts",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/subscribe-to-alerts/subscribe-manage-subscriptions.html",
+      "url"      : "/howto/subscribe-to-alerts/subscribe-manage-subscriptions.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -238,7 +238,7 @@
       "title"    : "Submit a Story",
       "category" : "submit a story",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/submit-a-story/submit-a-story-gfw.html",
+      "url"      : "/howto/submit-a-story/submit-a-story-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -247,7 +247,7 @@
       "title"    : "Submit a Story",
       "category" : "submit a story",
       "tags"     : "fires",
-      "url"      : "/gfw-howto/submit-a-story/submit-a-story-fires.html",
+      "url"      : "/howto/submit-a-story/submit-a-story-fires.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -256,7 +256,7 @@
       "title"    : "View Country Statistics",
       "category" : "view statistics",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/view-statistics/statistics-view-country-statistics.html",
+      "url"      : "/howto/view-statistics/statistics-view-country-statistics.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -265,7 +265,7 @@
       "title"    : "View Country Rankings",
       "category" : "view statistics",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/view-statistics/statistics-view-country-rankings.html",
+      "url"      : "/howto/view-statistics/statistics-view-country-rankings.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -274,7 +274,7 @@
       "title"    : "Pantropical Overview",
       "category" : "view statistics",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/view-statistics/statistics-pantropical-overview.html",
+      "url"      : "/howto/view-statistics/statistics-pantropical-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -283,7 +283,7 @@
       "title"    : "Country Profiles Overview",
       "category" : "view statistics",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/view-statistics/statistics-country-profiles-overview.html",
+      "url"      : "/howto/view-statistics/statistics-country-profiles-overview.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -292,7 +292,7 @@
       "title"    : "Country Page Comparison",
       "category" : "view statistics",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/view-statistics/statistics-country-page-comparison.html",
+      "url"      : "/howto/view-statistics/statistics-country-page-comparison.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -301,7 +301,7 @@
       "title"    : "Why do forests matter?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-why-do-forests-matter.html",
+      "url"      : "/howto/faqs/faq-why-do-forests-matter.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -310,7 +310,7 @@
       "title"    : "Why do different data layers contradict each other or not overlap exactly?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-why-different-layers-contradict-or-not-overlap.html",
+      "url"      : "/howto/faqs/faq-why-different-layers-contradict-or-not-overlap.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -319,7 +319,7 @@
       "title"    : "Whom do I contact with questions about the site?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-whom-contact-with-questions.html",
+      "url"      : "/howto/faqs/faq-whom-contact-with-questions.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -328,7 +328,7 @@
       "title"    : "Who is behind global forest watch?",
       "category" : "faqs",
       "tags"     : "gfw, climate",
-      "url"      : "/gfw-howto/faqs/faq-who-is-behind-gfw.html",
+      "url"      : "/howto/faqs/faq-who-is-behind-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -337,7 +337,7 @@
       "title"    : "Who can use global forest watch?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-who-can-use-global-forest-watch.html",
+      "url"      : "/howto/faqs/faq-who-can-use-global-forest-watch.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -346,7 +346,7 @@
       "title"    : "Where do the data come from?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-where-do-data-come-from.html",
+      "url"      : "/howto/faqs/faq-where-do-data-come-from.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -355,7 +355,7 @@
       "title"    : "What updates are coming down the road for GFW?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html",
+      "url"      : "/howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -364,7 +364,7 @@
       "title"    : "What does it mean that Global Forest Watch is in “beta”?",
       "category" : "faqs",
       "tags"     : "gfw, climate",
-      "url"      : "/gfw-howto/faqs/faq-what-means-gfw-is-in-beta.html",
+      "url"      : "/howto/faqs/faq-what-means-gfw-is-in-beta.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -373,7 +373,7 @@
       "title"    : "What kinds of data are available on Global Forest Watch?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-what-kinds-of-data-in-gfw.html",
+      "url"      : "/howto/faqs/faq-what-kinds-of-data-in-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -382,7 +382,7 @@
       "title"    : "What is tree cover canopy (TCC) density and what layers allow me to adjust it?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-what-is-tree-cover-canopy-and-layers-to-adjust.html",
+      "url"      : "/howto/faqs/faq-what-is-tree-cover-canopy-and-layers-to-adjust.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -391,7 +391,7 @@
       "title"    : "I am familiar with a particular geographic area and believe your data set is inaccurate. What can I do?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-i-am-familiar-with-area-data-set-is-inaccurate.html",
+      "url"      : "/howto/faqs/faq-i-am-familiar-with-area-data-set-is-inaccurate.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -400,7 +400,7 @@
       "title"    : "I am experiencing difficulties with the site. What should I do?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-i-am-experiencing-difficulties-with-the-site.html",
+      "url"      : "/howto/faqs/faq-i-am-experiencing-difficulties-with-the-site.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -409,7 +409,7 @@
       "title"    : "How was the Global Forest Watch website built?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-how-was-gfw-website-built.html",
+      "url"      : "/howto/faqs/faq-how-was-gfw-website-built.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -418,7 +418,7 @@
       "title"    : "How does GFW define key terms?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-how-does-gfw-define-key-terms.html",
+      "url"      : "/howto/faqs/faq-how-does-gfw-define-key-terms.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -427,7 +427,7 @@
       "title"    : "How do I cite Global Forest Watch as a data source?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-how-cite-gfw-as-a-data-source.html",
+      "url"      : "/howto/faqs/faq-how-cite-gfw-as-a-data-source.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -436,7 +436,7 @@
       "title"    : "How accurate are the data displayed on Global Forest Watch?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-how-accurate-are-the-data-displayed-on-gfw.html",
+      "url"      : "/howto/faqs/faq-how-accurate-are-the-data-displayed-on-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -445,7 +445,7 @@
       "title"    : "Do you have these data sets available for every country?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-do-you-have-data-sets-available-for-every-country.html",
+      "url"      : "/howto/faqs/faq-do-you-have-data-sets-available-for-every-country.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -454,7 +454,7 @@
       "title"    : "Do GFW data reveal the quality of forest management (e.g., sustainable versus unsustainable)? What about forest change from natural versus human causes?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-do-gfw-data-reveal-the-quality-of-forest-management.html",
+      "url"      : "/howto/faqs/faq-do-gfw-data-reveal-the-quality-of-forest-management.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -463,7 +463,7 @@
       "title"    : "Can I compare statistics for tree cover, loss and gain to calculate “net” tree cover and tree cover loss?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-compare-statistics-for-tree-cover-loss-and-gain-to-calculate-the-cover.html",
+      "url"      : "/howto/faqs/faq-compare-statistics-for-tree-cover-loss-and-gain-to-calculate-the-cover.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -472,7 +472,7 @@
       "title"    : "Why do you show emissions only from primary forests for Indonesia and DRC in the pantropical overview?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-why-show-emissions-only-primary-forests-for-indonesia-and-drc.html",
+      "url"      : "/howto/faqs/faq-cl-why-show-emissions-only-primary-forests-for-indonesia-and-drc.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -481,7 +481,7 @@
       "title"    : "Why isn&#39;t the biomass density map representative of a later year?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-why-is-not-biomass-density-map-representative-of-a-later-year.html",
+      "url"      : "/howto/faqs/faq-cl-why-is-not-biomass-density-map-representative-of-a-later-year.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -490,7 +490,7 @@
       "title"    : "Why don&#39;t my plot data match pixel values in the aboveground live woody biomass density map?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-why-dont-my-plt-data-match-pixle-values.html",
+      "url"      : "/howto/faqs/faq-cl-why-dont-my-plt-data-match-pixle-values.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -499,7 +499,7 @@
       "title"    : "Why doesn&#39;t this site include restoration?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-why-does-not-include-restoration.html",
+      "url"      : "/howto/faqs/faq-cl-why-does-not-include-restoration.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -508,7 +508,7 @@
       "title"    : "Why does GFW Climate focus only on the tropics?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-why-cliamte-focus-on-tropics.html",
+      "url"      : "/howto/faqs/faq-cl-why-cliamte-focus-on-tropics.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -517,7 +517,7 @@
       "title"    : "What&#39;s the difference between biomass and carbon?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-what-is-the-difference-between-biomass-and-carbon.html",
+      "url"      : "/howto/faqs/faq-cl-what-is-the-difference-between-biomass-and-carbon.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -526,7 +526,7 @@
       "title"    : "How are calculations done in a GIS to compute country level totals?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-how-are-calculations-don-in-a-gis.html",
+      "url"      : "/howto/faqs/faq-cl-how-are-calculations-don-in-a-gis.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -535,7 +535,7 @@
       "title"    : "How accurate are the emissions estimates?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-how-accurate-are-the-emissions-estimates.html",
+      "url"      : "/howto/faqs/faq-cl-how-accurate-are-the-emissions-estimates.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -544,7 +544,7 @@
       "title"    : "How does GFW Climate relate to country-level measurement, reporting and verification (MRV)?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-how-gfw-climate-relate-to-country-level-measurement.html",
+      "url"      : "/howto/faqs/faq-cl-how-gfw-climate-relate-to-country-level-measurement.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -553,7 +553,7 @@
       "title"    : "Can I use this website for project-level monitoring and assessment for REDD+?",
       "category" : "faqs",
       "tags"     : "climate",
-      "url"      : "/gfw-howto/faqs/faq-cl-can-use-website-for-project-level-monitoring.html",
+      "url"      : "/howto/faqs/faq-cl-can-use-website-for-project-level-monitoring.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -562,7 +562,7 @@
       "title"    : "Does GFW distinguish tree plantations from natural forests?",
       "category" : "faqs",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html",
+      "url"      : "/howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -571,7 +571,7 @@
       "title"    : "Analyze an uploaded area",
       "category" : "analyze data",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/analyze-data/analyze-an-uploaded-area.html",
+      "url"      : "/howto/analyze-data/analyze-an-uploaded-area.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -580,7 +580,7 @@
       "title"    : "Analyze an area on the map",
       "category" : "analyze data",
       "tags"     : "commodities",
-      "url"      : "/gfw-howto/analyze-data/analyze-an-area-on-the-map.html",
+      "url"      : "/howto/analyze-data/analyze-an-area-on-the-map.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -589,7 +589,7 @@
       "title"    : "Analyze a Country or Subnational Jurisdiction",
       "category" : "analyze data",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/analyze-data/analyze-a-country-or-subnational-jurisdiction.html",
+      "url"      : "/howto/analyze-data/analyze-a-country-or-subnational-jurisdiction.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -598,7 +598,7 @@
       "title"    : "Analize and Subscribe to a User-Defined Area",
       "category" : "analyze data",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html",
+      "url"      : "/howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -607,7 +607,7 @@
       "title"    : "Analyze a Shape on the Map",
       "category" : "analyze data",
       "tags"     : "gfw",
-      "url"      : "/gfw-howto/analyze-data/analize-a-shape-on-the-map.html",
+      "url"      : "/howto/analyze-data/analize-a-shape-on-the-map.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "content"  : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.categories | join: ', ' }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"  : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.categories | join: ', ' }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"  : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } 
@@ -623,9 +623,9 @@
         "title"    : "How to",
         "category" : "",
         "tags"     : "",
-        "url"      : "/gfw-howto/",
+        "url"      : "/howto/",
         "date"     : "",
-        "content"  : "<header class=\"m-header\">\n  <h2 class=\"-bold\">How to</h2>\n  <h3>Global Forest Watch is an interactive online platform that offers a variety of data and tools to help you monitor forests. Whether you're looking for general facts or specialized information about fires, climate, or commodities, we can help you learn how to use GFW to achieve your goals.</h3>\n</header>\n\n<section class=\"m-section -padding\">\n  <header>\n    <h2>How can we help you?</h2>\n  </header>\n  <div id=\"searchView\" class=\"m-search\">\n    <div class=\"search-container\">\n      <svg class=\"-active -search\"><use xlink:href=\"#icon-search\"></use></svg>\n      <svg id=\"search-close\" class=\"-cross\"><use xlink:href=\"#icon-cross\"></use></svg>\n      <input id=\"search-input\" type=\"text\" placeholder=\"e.g. How do I analyze data?\">\n    </div>\n    <ul id=\"search-results\" class=\"search-results\"></ul>\n  </div>  \n</section>\n\n<section class=\"m-section -padding\">\n  <!-- By ranking module -->\n  <div class=\"m-ranking\">\n  <div class=\"col\">\n    <header>\n      <h2 class=\"-bold\">MOST POPULAR QUESTIONS</h2>\n    </header>\n    <ul class=\"ranking-list\">          \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-how-does-gfw-define-key-terms.html\">How does GFW define key terms?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-who-is-behind-gfw.html\">Who is behind global forest watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-who-can-use-global-forest-watch.html\">Who can use global forest watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-what-kinds-of-data-in-gfw.html\">What kinds of data are available on Global Forest Watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html\">What updates are coming down the road for GFW?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-where-do-data-come-from.html\">Where do the data come from?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-how-cite-gfw-as-a-data-source.html\">How do I cite Global Forest Watch as a data source?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/gfw-howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html\">Does GFW distinguish tree plantations from natural forests?</a></h3>\n          </li>\n        \n              \n    </ul>\n    <a class=\"link\" href=\"/gfw-howto/faqs\">VIEW ALL FAQ’S ></a>\n  </div>\n  <div class=\"col\">\n    <header>\n      <h2 class=\"-bold\">POPULAR SUBJECTS</h2>\n    </header>\n    <ul class=\"ranking-list\">\n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/visualize-data/visualize-global-data.html\">Visualize Global Data on GFW</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html\">Analize and Subscribe to a User-Defined Area</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/subscribe-to-alerts/subscribe-manage-subscriptions.html\">Manage Subscriptions</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/visualize-data/visualize-download-data.html\">Download data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/visualize-data/visualize-country-data.html\">Visualize country data</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/visualize-data/visualize-find-data.html\">Find data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/visualize-data/visualize-download-raster-data.html\">Download raster data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html\">View Forest Statistics</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/gfw-howto/analyze-data/analize-a-shape-on-the-map.html\">Analyze a Shape on the Map</a></h3>\n          </li>\n        \n      \n    </ul>\n  </div>\n</div>\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Find content by application</h2>\n  </header>\n  <!-- By application grid -->\n  <div class=\"m-by-app\">\n  <!-- Grid -->\n  <ul>\n    \n      \n      <li class=\"-gfw\">\n        <a href=\"/gfw-howto/tags/gfw\">\n          <svg><use xlink:href=\"#icon-gfw\"></use></svg>\n          <h2>Gfw</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-fires\">\n        <a href=\"/gfw-howto/tags/fires\">\n          <svg><use xlink:href=\"#icon-fires\"></use></svg>\n          <h2>Fires</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-commodities\">\n        <a href=\"/gfw-howto/tags/commodities\">\n          <svg><use xlink:href=\"#icon-commodities\"></use></svg>\n          <h2>Commodities</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-climate\">\n        <a href=\"/gfw-howto/tags/climate\">\n          <svg><use xlink:href=\"#icon-climate\"></use></svg>\n          <h2>Climate</h2>\n        </a>\n      </li>\n      \n    \n      \n    \n      \n    \n      \n    \n  </ul>\n</div>\n\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Find content by tool</h2>\n  </header>\n  <!-- By application grid -->\n  <div class=\"m-by-app\">\n  <!-- Grid -->\n  <ul>\n    \n      \n    \n      \n    \n      \n    \n      \n    \n      \n      <li class=\"-odp\">\n        <a href=\"/gfw-howto/tags/odp\">\n          <h2>Open data portal</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-map-builder\">\n        <a href=\"/gfw-howto/tags/map-builder\">\n          <h2>Map Builder</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-small-grants-fund\">\n        <a href=\"/gfw-howto/tags/small-grants-fund\">\n          <h2>Small Grants Fund</h2>\n        </a>\n      </li>\n      \n    \n  </ul>\n</div>\n\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Global Forest Watch Discussion Forum</h2>\n  </header>\n  <!-- By application grid -->\n  <div id=\"googleGroupsView\" class=\"m-ranking\">\n\n</div>\n</section>\n\n\n"
+        "content"  : "<header class=\"m-header\">\n  <h2 class=\"-bold\">How to</h2>\n  <h3>Global Forest Watch is an interactive online platform that offers a variety of data and tools to help you monitor forests. Whether you're looking for general facts or specialized information about fires, climate, or commodities, we can help you learn how to use GFW to achieve your goals.</h3>\n</header>\n\n<section class=\"m-section -padding\">\n  <header>\n    <h2>How can we help you?</h2>\n  </header>\n  <div id=\"searchView\" class=\"m-search\">\n    <div class=\"search-container\">\n      <svg class=\"-active -search\"><use xlink:href=\"#icon-search\"></use></svg>\n      <svg id=\"search-close\" class=\"-cross\"><use xlink:href=\"#icon-cross\"></use></svg>\n      <input id=\"search-input\" type=\"text\" placeholder=\"e.g. How do I analyze data?\">\n    </div>\n    <ul id=\"search-results\" class=\"search-results\"></ul>\n  </div>  \n</section>\n\n<section class=\"m-section -padding\">\n  <!-- By ranking module -->\n  <div class=\"m-ranking\">\n  <div class=\"col\">\n    <header>\n      <h2 class=\"-bold\">MOST POPULAR QUESTIONS</h2>\n    </header>\n    <ul class=\"ranking-list\">          \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-how-does-gfw-define-key-terms.html\">How does GFW define key terms?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-who-is-behind-gfw.html\">Who is behind global forest watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-who-can-use-global-forest-watch.html\">Who can use global forest watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-what-kinds-of-data-in-gfw.html\">What kinds of data are available on Global Forest Watch?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html\">What updates are coming down the road for GFW?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-where-do-data-come-from.html\">Where do the data come from?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-how-cite-gfw-as-a-data-source.html\">How do I cite Global Forest Watch as a data source?</a></h3>\n          </li>\n        \n              \n        \n          <li>\n            <h3><a href=\"/howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html\">Does GFW distinguish tree plantations from natural forests?</a></h3>\n          </li>\n        \n              \n    </ul>\n    <a class=\"link\" href=\"/howto/faqs\">VIEW ALL FAQ’S ></a>\n  </div>\n  <div class=\"col\">\n    <header>\n      <h2 class=\"-bold\">POPULAR SUBJECTS</h2>\n    </header>\n    <ul class=\"ranking-list\">\n      \n        \n          <li>\n            <h3><a href=\"/howto/visualize-data/visualize-global-data.html\">Visualize Global Data on GFW</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/analyze-data/analize-and-subscribe-to-a-user-defined-area.html\">Analize and Subscribe to a User-Defined Area</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/subscribe-to-alerts/subscribe-manage-subscriptions.html\">Manage Subscriptions</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/visualize-data/visualize-download-data.html\">Download data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/visualize-data/visualize-country-data.html\">Visualize country data</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/visualize-data/visualize-find-data.html\">Find data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/visualize-data/visualize-download-raster-data.html\">Download raster data in the open data portal</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/tutorial-videos/tutorial-gfw-view-forest-statistics.html\">View Forest Statistics</a></h3>\n          </li>\n        \n      \n        \n          <li>\n            <h3><a href=\"/howto/analyze-data/analize-a-shape-on-the-map.html\">Analyze a Shape on the Map</a></h3>\n          </li>\n        \n      \n    </ul>\n  </div>\n</div>\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Find content by application</h2>\n  </header>\n  <!-- By application grid -->\n  <div class=\"m-by-app\">\n  <!-- Grid -->\n  <ul>\n    \n      \n      <li class=\"-gfw\">\n        <a href=\"/howto/tags/gfw\">\n          <svg><use xlink:href=\"#icon-gfw\"></use></svg>\n          <h2>Gfw</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-fires\">\n        <a href=\"/howto/tags/fires\">\n          <svg><use xlink:href=\"#icon-fires\"></use></svg>\n          <h2>Fires</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-commodities\">\n        <a href=\"/howto/tags/commodities\">\n          <svg><use xlink:href=\"#icon-commodities\"></use></svg>\n          <h2>Commodities</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-climate\">\n        <a href=\"/howto/tags/climate\">\n          <svg><use xlink:href=\"#icon-climate\"></use></svg>\n          <h2>Climate</h2>\n        </a>\n      </li>\n      \n    \n      \n    \n      \n    \n      \n    \n  </ul>\n</div>\n\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Find content by tool</h2>\n  </header>\n  <!-- By application grid -->\n  <div class=\"m-by-app\">\n  <!-- Grid -->\n  <ul>\n    \n      \n    \n      \n    \n      \n    \n      \n    \n      \n      <li class=\"-odp\">\n        <a href=\"/howto/tags/odp\">\n          <h2>Open data portal</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-map-builder\">\n        <a href=\"/howto/tags/map-builder\">\n          <h2>Map Builder</h2>\n        </a>\n      </li>\n      \n    \n      \n      <li class=\"-small-grants-fund\">\n        <a href=\"/howto/tags/small-grants-fund\">\n          <h2>Small Grants Fund</h2>\n        </a>\n      </li>\n      \n    \n  </ul>\n</div>\n\n</section>\n\n<section class=\"m-section -padding -border\">\n  <header>\n    <h2>Global Forest Watch Discussion Forum</h2>\n  </header>\n  <!-- By application grid -->\n  <div id=\"googleGroupsView\" class=\"m-ranking\">\n\n</div>\n</section>\n\n\n"
      
    } ,
   
