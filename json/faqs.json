@@ -40,7 +40,7 @@
       "url"      : "/gfw-howto/faqs/faq-who-is-behind-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "2",
       "content"  : "<div class=\"content\">\n\t<p>GFW is supported by a diverse range of partners that contribute data, technical capabilities, funding, and expertise. The partnership is convened by the World Resources Institute. Visit the <a href=\"/about\">GFW About page</a> for a full list of partners.</p>\n\t<p>Interested in joining the GFW partnership? Email us <a href=\"mailto:gfw@wri.org\">here</a>.</p>\n</div>\n"
     } ,
   
@@ -51,7 +51,7 @@
       "url"      : "/gfw-howto/faqs/faq-who-can-use-global-forest-watch.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "3",
       "content"  : "<div class=\"content\">\n\t<p>GFW aims to radically improve the availability, quality, and accessibility of forest data for everyone:</p>\n\t<ul>\n\t  <li><strong>Governments</strong> can use GFW to detect illegal forest clearing and target forest law enforcement efforts.</li>\n\t  <li><strong>Companies</strong> •  Companies can monitor the impacts of commodity supply chains on forests and demonstrate compliance with sustainability commitments and certifications. Learn more at <a href=\"http://www.commodities.globalforestwatch.org\" target=\"_blank\">GFW Commodities</a>.</li>\n\t  <li><strong>NGOs &amp; civil society</strong> can identify deforestation hotspots and bolster their investigations, advocacy, and campaigns.</li>\n\t  <li><strong>Indigenous communities</strong> can monitor their territories and raise an alarm when their customary forests are threatened.</li>\n\t  <li><strong>Media</strong> can gather evidence, data, and graphics for reporting.</li>\n\t  <li><strong>Researchers</strong> can analyze forest trends on a local or global scale and better understand the causes of forest change.</li>\n\t  <li><strong>Concerned citizens everywhere</strong> can learn more about the state of forests and participate in forest monitoring. Students and educators can learn more about forests at local and global scales.</li>\n\t</ul>\n\t<p>GFW also brings together a dynamic community of partners with expertise in forest science, conservation, supply chain management, web development, citizen science, community outreach, and in-depth knowledge of priority forests around the world.</p>\n</div>\n"
     } ,
   
@@ -62,7 +62,7 @@
       "url"      : "/gfw-howto/faqs/faq-where-do-data-come-from.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "6",
       "content"  : "<div class=\"content\">\n\t<p>The data on GFW come from various sources. Most of the data are in the public domain and have been developed by governments, NGOs, research institutions, or companies. Note that the data come in different formats and vary in their accuracy, timeliness, and geographical extent. See GFW’s <a href=\"http://gfw-nav.herokuapp.com/about/data_policy\">Data policy</a> for more details.</p>\n\n\t<p>Some data are produced directly by WRI and our partners, such as FORMA alerts, Intact Forest Landscapes, and some forest use data. For more details, see the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n</div>\n"
     } ,
   
@@ -73,7 +73,7 @@
       "url"      : "/gfw-howto/faqs/faq-what-updates-are-coming-down-the-road-for-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "5",
       "content"  : "<div class=\"content\">\n\t<p>You asked, and we listened. Here is how we are addressing user feedback to improve GFW.</p>\n\t<ul>\n\t  <li>Additional “Forest Use” and “People” data sets, including concession boundaries, community land claims, and tenure rights</li>\n\t  <li>Additional local data, including projects, resources, and important places to watch</li>\n\t  <li>A plantations map for tropical regions</li>\n\t  <li>An expanded analysis and subscription tool that enables on-the-fly analysis of additional data layers and subscription to stories and other forest change data layers</li>\n\t  <li>Updated country profiles that include additional climate, carbon, and forest data</li>\n\t  <li>Better language translation and low-bandwith capabilities</li>\n\t  <li>Updated carbon density maps and estimates of emissions for forest loss and land-use change</li>\n\t  <li>A citizen-science platform for comparing and classifying satellite imagery of forests as well as an additional crowd-sourcing tool allowing direct upload of georeferenced information and photos from the field</li>\n\t  <li>And much more...</li>\n\t</ul>\n</div>\n"
     } ,
   
@@ -95,7 +95,7 @@
       "url"      : "/gfw-howto/faqs/faq-what-kinds-of-data-in-gfw.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "4",
       "content"  : "<div class=\"content\">\n\t<p>GFW seeks to bring together the most current, reliable, and robust data to monitor forest change around the world. GFW incorporates and integrates a wide range of data sets that can be overlaid and compared, including:</p>\n\n\t<ul>\n\t\t<li>Forest change data, such as global tree cover loss and gain data from the University of Maryland/Google, near real-time FORMA alerts for the humid tropics, SAD alerts for the Brazilian Amazon from Imazon, quarterly vegetation change data from NASA, and others</li>\n\t\t<li>Forest cover data, including global tree cover data, intact forest landscapes, and pantropical carbon density</li>\n\t\t<li>Forest fire data, from NASA’s Modis satellite (see <a href=\"http://www.fires.globalforestwatch.org\" target=\"_blank\">GFW Fires</a>)</li>\n\t\t<li>Forest use data, which includes contextual information, such as concession areas for natural resource extraction or agricultural production</li>\n\t\t<li>Conservation data, such as global boundaries for protected areas and biodiversity hotspots</li>\n\t\t<li>Qualitative and anecdotal data, such as user-submitted (submit one <a href=\"/stories/new\">here</a>)</li>\n\t\t<li>People data, including community land boundaries and land tenure rights (coming soon)</li>\n\t</ul>\n\n\t<p>By monitoring changes tracked by these data sets over time, users can better understand drivers and patterns of forest loss worldwide.</p>\n\t<p>See our <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a> for more detail. To contribute or suggest data, please <a href=\"mailto:gfw@wri.com\">email</a> us.</p>\n\n\t<p>For more information about how Global Forest Watch acquires and incorporates new data to the GFW system, see our <a href=\"http://gfw.blog.s3.amazonaws.com/Data%20Playbook/GFW%20Data%20Playbook%20v3.pdf\" target=\"_blank\">Data Playbook</a>.</p>\n</div>\n"
     } ,
   
@@ -150,7 +150,7 @@
       "url"      : "/gfw-howto/faqs/faq-how-does-gfw-define-key-terms.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "1",
       "content"  : "<div class=\"content\">\n\t<p><strong>Forest</strong></p>\n\t<p>Various definitions exist for the term “forest,” and GFW does not aim to provide a consensus definition. Data sets hosted on GFW may define “forest” differently or pertain to different types of forest (primary, secondary, tree plantations, etc.). Through information found on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>, we aim to be transparent about the assumptions and definitions feeding into each data set.</p>\n\t<p>In our general writing, including the GFW blog, “forest” refers to a landscape with a high density of trees and value for biodiversity, carbon storage, and human use..</p>\n\n\t<p><strong>Deforestation</strong></p>\n\t<p>How one defines “deforestation” depends on how one defines “forest.” As noted above, various definitions of forest exist and GFW does not aim to provide a consensus view. Correspondingly, GFW does not provide a single definition for “deforestation.”</p>\n\t<p>In general writing, GFW uses “deforestation” to refer to the removal of a significant number of trees from a landscape, typically in the context of human actions rather than natural events such as fires or disease. We generally refer to “gross deforestation” (the total amount of forest loss), rather than “net deforestation” (the total amount of forest loss minus the amount of forest gain), or clearly specify otherwise.</p>\n\t<p>For more information on each data set, please visit our <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>.</p>\n\n\t<p><strong>Tree cover</strong></p>\n\t<p>Where found on the GFW website, “tree cover” refers to the biophysical presence of trees, which may be part of natural forests or tree plantations. The inclusion of all types of tree plantations in the “tree cover” definition notably distinguishes the term from some definitions of “forest.” Accordingly, “tree cover” and “forest” should not be used interchangeably. Different data sets further define “tree cover” with added parameters (see the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a> for details and distinctions).</p>\n\n\t<p><strong>Tree cover loss</strong></p>\n\t<p>“Tree cover loss” refers to the removal of trees, which may be within natural forests or tree plantations. Accordingly, “tree cover loss” does not necessarily equate to “deforestation” and can result from a variety of factors, including mechanical harvesting, fire, disease, or storm damage. Different data sets have additional parameters that must be met for the indication or alert of loss to appear on the GFW map (see examples below).</p>\n\n\t<ul>\n\t<li><strong>University of Maryland (UMD)/Google tree cover loss:</strong> Loss is defined as “stand replacement disturbance,” or the complete removal or mortality of tree cover canopy (of any canopy cover density) at the Landsat pixel scale (30 × 30 meters).</li>\n\n\t<li><strong>FORMA alerts:</strong> Loss alerts are triggered by areas exhibiting a steep, persistent drop in vegetation intensity, indicating a high probability (equal to or greater than 50%) of the occurrence of tree cover loss. It is important to note that this alert-based system is not the same as an area measurement of tree cover loss.</li>\n\t</ul>\n</div>\n"
     } ,
   
@@ -161,7 +161,7 @@
       "url"      : "/gfw-howto/faqs/faq-how-cite-gfw-as-a-data-source.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "7",
       "content"  : "<div class=\"content\">\n\t<p>Each data set has an individual citation, which can be found on the <a href=\"http://data.globalforestwatch.org/\">Open Data Portal</a>. If you are referencing the source website or publication for a data set, please use the “Citation.”  If you are referencing the source website or publication for a data set, please use the “Citation.” If you are referencing a figure or number generated by GFW or data downloaded from the GFW website, please use the “Suggested citation for data as displayed on GFW.” For data that are displayed in their original form or when users are directed to the original source to download data, a suggested citation is not listed.</p>\n\n\t<p>To cite the website or initiative overall, please use:</p>\n\t<p>Global Forest Watch. 2014. World Resources Institute. Accessed on (date). <a href=\"http://www.globalforestwatch.org\">www.globalforestwatch.org</a>.</p>\n</div>\n"
     } ,
   
@@ -326,7 +326,7 @@
       "url"      : "/gfw-howto/faqs/faq-does-gfw-distinguish-tree-plantations-from-natural-forests.html",
       "date"     : "2001-01-01 00:00:00 +0100",
       "app"      : "",
-      "order"    : "",
+      "order"    : "8",
       "content"  : "<div class=\"content\">\n\t<p>Tree plantations are not distinguished from natural forests in the case of several key data sets hosted on GFW (including 2000 tree cover, UMD/Google tree cover loss and gain, FORMA alerts, and QUICC alerts). Tree cover loss may include cases of tree plantations being harvested, and tree cover gain may include cases where natural forests are replaced with tree plantations.</p>\n\n\t<p>It is nonetheless important to <a href=\"http://www.sciencemag.org/content/342/6160/805.full\" target=\"_blank\">distinguish</a> between natural forests and tree plantations when considering conservation, carbon storage, and value to local communities. Natural forests have higher biodiversity, store more carbon, and are more often associated with the traditional livelihoods of forest-dependent communities. Accordingly, GFW and partners are developing a “plantation forests map” for the tropical regions to determine the location of plantations on a near-global scale. The map, developed through remote sensing methods, will be coming soon to GFW.</p>\n</div>\n"
     } 
   
